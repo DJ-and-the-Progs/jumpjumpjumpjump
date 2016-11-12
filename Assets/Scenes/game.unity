@@ -145,8 +145,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 13154500}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.2, y: 0.28, z: 0}
-  m_LocalScale: {x: 26.537497, y: 1, z: 1}
+  m_LocalPosition: {x: 67.3, y: -3.06, z: 0}
+  m_LocalScale: {x: 122.71199, y: 7.673832, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 995752215}
@@ -225,8 +225,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 491098835}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.5, z: 0}
-  m_LocalScale: {x: 13.502367, y: 1, z: 1}
+  m_LocalPosition: {x: -2.79, y: -3.47, z: 0}
+  m_LocalScale: {x: 19.089764, y: 6.9495397, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 995752215}
@@ -303,11 +303,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000013560443508, guid: 1279253995ce67146b108ec2e62a0389, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -12.38
       objectReference: {fileID: 0}
     - target: {fileID: 4000013560443508, guid: 1279253995ce67146b108ec2e62a0389, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 14.28
       objectReference: {fileID: 0}
     - target: {fileID: 4000013560443508, guid: 1279253995ce67146b108ec2e62a0389, type: 2}
       propertyPath: m_LocalPosition.z
@@ -361,8 +361,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 681407288}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.27, y: 4.08, z: 0}
-  m_LocalScale: {x: 1, y: 8.652557, z: 1}
+  m_LocalPosition: {x: -13.51, y: 2.11, z: 0}
+  m_LocalScale: {x: 2.81073, y: 17.861412, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 995752215}
@@ -706,9 +706,11 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 0
   target: {fileID: 1224735075}
-  cameraHorizontalFollowSpeed: 0.06
+  cameraHorizontalFollowSpeed: 0.3
   cameraHeightThresholdPercent: 0.75
   cameraRiseSpeed: 0.07
+  minX: 0
+  maxX: Infinity
 --- !u!4 &1224735075 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000013560443508, guid: 1279253995ce67146b108ec2e62a0389,
@@ -728,7 +730,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000012683618596, guid: f94b0107f4a56bd4daa52af5378b6ad9, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 3.081
+      value: -4.76
       objectReference: {fileID: 0}
     - target: {fileID: 4000012683618596, guid: f94b0107f4a56bd4daa52af5378b6ad9, type: 2}
       propertyPath: m_LocalPosition.y
