@@ -785,7 +785,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bad0bf835f25a58409e98360c2cdcd7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fallCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   target: {fileID: 1224735075}
+  cameraHorizontalFollowSpeed: 0
+  cameraHeightThresholdPercent: 0
+  cameraRiseSpeed: 0
+  minX: 0
+  maxX: 0
 --- !u!4 &1224735075 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000013560443508, guid: 1279253995ce67146b108ec2e62a0389,
