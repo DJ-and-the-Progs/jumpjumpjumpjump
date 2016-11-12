@@ -9,6 +9,12 @@ public class PlayerMovement : MonoBehaviour {
     [SerializeField]
     private float bounceHeight;
 
+	[SerializeField]
+	private float movementVelocity;
+
+	[SerializeField]
+	private float movementVelocityThreshhold;
+
     private float lastJumpFrom; // Last Y height where we jumped off from
     private float jumpTime;
 
@@ -25,12 +31,16 @@ public class PlayerMovement : MonoBehaviour {
 
         Vector3 position = this.transform.position;
         position.y = lastJumpFrom + currentJumpHeight;
-        this.transform.position = position;
+
+		float horizontalInput = Input.GetAxis("Horizontal");
+
+		float changeInPosition = currentTime<=movementVelocityThreshhold? 0: movementVelocity * horizontalInput ;
+		position.x += changeInPosition;
+		this.transform.position = position;
 	}
 
     void OnCollisionEnter(Collision col)
     {
-        Debug.Log("COLLISION");
         lastJumpFrom = this.transform.position.y;
         jumpTime = Time.time;
     }
