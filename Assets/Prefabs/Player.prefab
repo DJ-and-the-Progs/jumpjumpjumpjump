@@ -141,7 +141,7 @@ MonoBehaviour:
   floorLookDistance: 1.01
   spherecastRadius: 0.4
   maxCurveTime: 0.5
-  staringVelocity: 0.4
+  staringVelocity: 0.307
 --- !u!136 &136000013145270122
 CapsuleCollider:
   m_ObjectHideFlags: 1
