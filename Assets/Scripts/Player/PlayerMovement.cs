@@ -94,7 +94,8 @@ public class PlayerMovement : MonoBehaviour {
             jumpTime = Time.time;
 
             // Tell the thing we bounced on that we bounced on it
-            hit.collider.gameObject.SendMessage("OnPlayerBounceOn", this.gameObject, SendMessageOptions.DontRequireReceiver);
+            object[] bounceData = new object[] { this.gameObject, hit.point };
+            hit.collider.gameObject.SendMessage("OnPlayerBounceOn", bounceData, SendMessageOptions.DontRequireReceiver);
         }
 
         if (!this.IsGoingDown() && Physics.SphereCast(this.transform.position, spherecastRadius, Vector3.up, out hit, lookAheadDistance, layerMask))

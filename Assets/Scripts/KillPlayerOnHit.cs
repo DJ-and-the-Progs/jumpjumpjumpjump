@@ -13,8 +13,9 @@ public class KillPlayerOnHit : MonoBehaviour {
 	
 	}
 
-    void OnPlayerBounceOn(GameObject player)
+    void OnPlayerBounceOn(object[] data)
     {
+        GameObject player = (GameObject)data[0];
         player.SendMessage("Die");
     }
 
