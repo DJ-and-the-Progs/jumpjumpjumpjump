@@ -332,41 +332,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114000011179098942, guid: 1279253995ce67146b108ec2e62a0389,
-        type: 2}
-      propertyPath: movementVelocity
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011179098942, guid: 1279253995ce67146b108ec2e62a0389,
-        type: 2}
-      propertyPath: movementVelocityThreshhold
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011179098942, guid: 1279253995ce67146b108ec2e62a0389,
-        type: 2}
-      propertyPath: bounceHeight
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011179098942, guid: 1279253995ce67146b108ec2e62a0389,
-        type: 2}
-      propertyPath: floorLookDistance
-      value: 1.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 54000010184428422, guid: 1279253995ce67146b108ec2e62a0389,
-        type: 2}
-      propertyPath: m_Constraints
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 54000010184428422, guid: 1279253995ce67146b108ec2e62a0389,
-        type: 2}
-      propertyPath: m_Interpolate
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 54000010184428422, guid: 1279253995ce67146b108ec2e62a0389,
-        type: 2}
-      propertyPath: m_CollisionDetection
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1279253995ce67146b108ec2e62a0389, type: 2}
   m_IsPrefabParent: 0
