@@ -140,4 +140,13 @@ public class PlayerMovement : MonoBehaviour {
         }
         return horizontalTarget;
     }
+
+	public void OnPortalCollide()
+	{
+		Destroy(this);
+		this.GetComponent<MoveToPortal>().enabled = true;
+		Animator animator = this.GetComponent<Animator>();
+		animator.SetTrigger("OnPortalCollide");
+
+	}
 }
