@@ -133,15 +133,15 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 0
   bounceHeight: 5
-  movementAccel: 0.005
-  maxVelocity: 0.1
-  minVelocityCuttoff: 0.015
+  movementAccel: 50
+  maxVelocity: 10
+  minVelocityCuttoff: 1.5
   movementDampening: 0.935
   movementVelocityThreshhold: 0.01
   floorLookDistance: 1.01
   spherecastRadius: 0.4
   maxCurveTime: 0.5
-  staringVelocity: 0.307
+  staringVelocity: 11.35
 --- !u!136 &136000013145270122
 CapsuleCollider:
   m_ObjectHideFlags: 1

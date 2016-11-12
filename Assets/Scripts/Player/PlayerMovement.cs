@@ -63,11 +63,11 @@ public class PlayerMovement : MonoBehaviour {
             if (Mathf.Abs(this.horizVelocity) < this.minVelocityCuttoff)
                 this.horizVelocity = 0;
         }
-        this.horizVelocity += horizontalInput * movementAccel;
+        this.horizVelocity += horizontalInput * movementAccel * Time.deltaTime;
         this.horizVelocity = Mathf.Clamp(this.horizVelocity, -maxVelocity, maxVelocity);
         if (firstEntering) this.horizVelocity = staringVelocity;
 
-        float horizontalTarget = this.CheckHorizontalMovement(horizVelocity);
+        float horizontalTarget = this.CheckHorizontalMovement(horizVelocity * Time.deltaTime);
         if (horizontalTarget == 0) this.horizVelocity = 0; // Reset vel, hitting wall
 
 		float changeInPosition = currentTime <= movementVelocityThreshhold ? 0: horizontalTarget ;
