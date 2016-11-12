@@ -9,8 +9,16 @@ public class PlayerMovement : MonoBehaviour {
     [SerializeField]
     private float bounceHeight;
 
-	[SerializeField]
-	private float movementVelocity;
+    [SerializeField]
+    private float movementAccel;
+    [SerializeField]
+    private float maxVelocity;
+    [SerializeField]
+    [Tooltip("Minimum velocity before just set to zero")]
+    private float minVelocityCuttoff;
+    [SerializeField]
+    private float movementDampening = 0.95f;
+    private float horizVelocity;
 
 	[SerializeField]
 	private float movementVelocityThreshhold;
@@ -41,8 +49,17 @@ public class PlayerMovement : MonoBehaviour {
         target.y = lastJumpFrom + currentJumpHeight;
 
         // Player movement control
-		float horizontalInput = Input.GetAxis("Horizontal");
-		float changeInPosition = currentTime <= movementVelocityThreshhold ? 0: movementVelocity * horizontalInput ;
+		float horizontalInput = Input.GetAxisRaw("Horizontal");
+        // Only damp if not trying to move (With tolerance)
+        if (Mathf.Abs(horizontalInput) < 0.1f)
+        {
+            this.horizVelocity *= movementDampening;
+            if (Mathf.Abs(this.horizVelocity) < this.minVelocityCuttoff)
+                this.horizVelocity = 0;
+        }
+        this.horizVelocity += horizontalInput * movementAccel;
+        this.horizVelocity = Mathf.Clamp(this.horizVelocity, -maxVelocity, maxVelocity);
+		float changeInPosition = currentTime <= movementVelocityThreshhold ? 0: horizVelocity ;
         target.x += changeInPosition;
 
         Rigidbody rb = this.GetComponent<Rigidbody>();
