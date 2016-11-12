@@ -4,6 +4,9 @@ using System.Collections;
 public class Enemy : MonoBehaviour {
 
     [SerializeField]
+    private GameObject particleEffect;
+
+    [SerializeField]
     private int hits = 1;
     [SerializeField]
     [Tooltip("How namy points recieved for doing damage")]
@@ -49,6 +52,9 @@ public class Enemy : MonoBehaviour {
             if (scoreCounter) scoreCounter.AddScore(this.hitScore);
         }
 
+        GameObject shockWave = Instantiate(particleEffect);
+        shockWave.transform.position = this.transform.position;
+        
         if (debugScaleOnHit)
         {
             Vector3 scale = this.transform.localScale;
