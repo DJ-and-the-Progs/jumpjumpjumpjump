@@ -134,6 +134,10 @@ MonoBehaviour:
     m_RotationOrder: 0
   bounceHeight: 5
   movementVelocity: 0.1
+  movementAccel: 0.005
+  maxVelocity: 0.1
+  minVelocityCuttoff: 0.015
+  movementDampening: 0.935
   movementVelocityThreshhold: 0.01
   floorLookDistance: 1.01
   spherecastRadius: 0.4
