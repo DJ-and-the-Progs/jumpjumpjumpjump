@@ -63,7 +63,6 @@ public class CameraFollow : MonoBehaviour {
         }
 
         if (characterOffsetFromCenter.sqrMagnitude > 0) {
-            Debug.Log(characterOffsetFromCenter);
             position += new Vector3(characterOffsetFromCenter.x, characterOffsetFromCenter.y, 0) * Time.deltaTime;
             position.z = transform.position.z;
             position.x = Mathf.Clamp(position.x, minX, maxX);
