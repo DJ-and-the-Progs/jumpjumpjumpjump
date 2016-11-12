@@ -120,6 +120,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hits: 3
+  hitScore: 50
+  killScore: 100
+  debugScaleOnHit: 1
 --- !u!135 &135000012278886840
 SphereCollider:
   m_ObjectHideFlags: 1
