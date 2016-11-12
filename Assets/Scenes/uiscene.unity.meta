@@ -1,7 +1,14 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Scenes/uiscene.unity.meta
 guid: ed5b3c6ab2e5cb146b83680e189dedc0
 timeCreated: 1478921515
 licenseType: Free
+=======
+guid: 9e66315b8439eac40a091db2727c7f46
+folderAsset: yes
+timeCreated: 1478918132
+licenseType: Pro
+>>>>>>> a77caa3daaec15cb3651a9747832f4a1de08726d:Assets/Scripts.meta
 DefaultImporter:
   userData: 
   assetBundleName: 
