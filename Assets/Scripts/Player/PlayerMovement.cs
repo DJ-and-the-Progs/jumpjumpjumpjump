@@ -45,7 +45,9 @@ public class PlayerMovement : MonoBehaviour {
 		float changeInPosition = currentTime <= movementVelocityThreshhold ? 0: movementVelocity * horizontalInput ;
         target.x += changeInPosition;
 
-        this.GetComponent<Rigidbody>().MovePosition(target);
+        Rigidbody rb = this.GetComponent<Rigidbody>();
+        rb.velocity = Vector3.zero;
+        rb.MovePosition(target);
 
         // Look down for collisions with floor
         RaycastHit hit;
