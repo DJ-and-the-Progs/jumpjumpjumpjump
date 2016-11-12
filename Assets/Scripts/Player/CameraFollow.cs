@@ -3,25 +3,19 @@ using System.Collections;
 
 public class CameraFollow : MonoBehaviour {
 
-	[SerializeField]
-	private AnimationCurve fallCurve;
 
 	[SerializeField]
     private Transform target;
     private PlayerMovement player;
 
-	[SerializeField]
-	private float cameraHorizontalFollowSpeed;
 
 	[SerializeField]
 	private float cameraHeightThresholdPercent;
 
-	[SerializeField]
-	private float cameraRiseSpeed;
-
-	private float cameraAcceleration;
-
-	private float fallingTime;
+    private float playerLowerBound = .0f;
+    private float playerUpperBound = .5f;
+    private float playerLeftBound = -.2f;
+    private float playerRightBound = .2f;
 
     [SerializeField]
     [Tooltip("Left-most camera position")]
@@ -38,33 +32,41 @@ public class CameraFollow : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+
         Vector3 position = this.transform.position;
+        Vector2 screenCenter = new Vector2(Screen.width, Screen.height) / 2;
+        Vector2 targetPosition = Camera.main.WorldToScreenPoint(target.position);
+        Vector2 characterOffsetFromCenter = (targetPosition - screenCenter);
 
-		//position.x = Mathf.Lerp(position.x, target.position.x, 0.0005f);
-		// switched to moveTorwards because has a cool mvoing affect
-		position.x = Mathf.MoveTowards(position.x, target.position.x, cameraHorizontalFollowSpeed);
-        position.x = Mathf.Clamp(position.x, minX, maxX);
 
-		float targetYPosition = Camera.main.WorldToScreenPoint(target.position).y;
 
-		// calculates threshold depth for character position to not exceed from center
-		float screenCenter = Screen.height / 2;
-		float thresholdDepth = Screen.height - Screen.height * cameraHeightThresholdPercent;
+        // Get difference between object and bounds if it is outside those bounds.
+        if(characterOffsetFromCenter.x > screenCenter.x * playerRightBound) {
+            characterOffsetFromCenter.x -= screenCenter.x * playerRightBound;
+        }
+        else if (characterOffsetFromCenter.x < screenCenter.x * playerLeftBound) {
+            characterOffsetFromCenter.x -= screenCenter.x * playerLeftBound;
+        }
+        else {
+            characterOffsetFromCenter.x = 0;
+        }
 
-		//needs to calculate new camera acceleration if falling
-		fallingTime = (targetYPosition < screenCenter - thresholdDepth) ? fallingTime + Time.deltaTime : 0;
-		cameraAcceleration = (targetYPosition < screenCenter - thresholdDepth) ? cameraAcceleration+fallCurve.Evaluate(fallingTime) : 0;
+        if (characterOffsetFromCenter.y > screenCenter.y * playerUpperBound) {
+            characterOffsetFromCenter.y -= screenCenter.y * playerUpperBound;
+        }
+        else if (characterOffsetFromCenter.y < screenCenter.y * playerLowerBound) {
+            characterOffsetFromCenter.y -= screenCenter.y * playerLowerBound;
+        }
+        else {
+            characterOffsetFromCenter.y = 0;
+        }
 
-        if (player && !player.FirstEntering)
-        {
-            if (targetYPosition > screenCenter + thresholdDepth)
-            {
-                position.y = Mathf.MoveTowards(position.y, target.position.y, cameraRiseSpeed);
-            }
-            else if (targetYPosition < screenCenter - thresholdDepth)
-            {
-                position.y = Mathf.MoveTowards(position.y, target.position.y, cameraAcceleration);
-            }
+        if (characterOffsetFromCenter.sqrMagnitude > 0) {
+            Debug.Log(characterOffsetFromCenter);
+            position += new Vector3(characterOffsetFromCenter.x, characterOffsetFromCenter.y, 0) * Time.deltaTime;
+            position.z = transform.position.z;
+            position.x = Mathf.Clamp(position.x, minX, maxX);
         }
 
         this.transform.position = position;
