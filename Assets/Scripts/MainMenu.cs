@@ -17,7 +17,7 @@ public class MainMenu : MonoBehaviour {
 
     public void OnPlayButtonClicked()
     {
-        Application.LoadLevel("game");
+        Application.LoadLevel("level1");
     }
 
     public void OnSettingsButtonClicked()

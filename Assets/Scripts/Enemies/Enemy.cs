@@ -39,8 +39,10 @@ public class Enemy : MonoBehaviour {
         Destroy(this.gameObject);
     }
 
-    protected virtual void OnPlayerBounceOn(GameObject player)
+    protected virtual void OnPlayerBounceOn(object[] data)
     {
+        GameObject player = (GameObject)data[0];
+        Vector3 hitPoint = (Vector3)data[1];
         this.hits--;
         if (this.hits <= 0)
         {

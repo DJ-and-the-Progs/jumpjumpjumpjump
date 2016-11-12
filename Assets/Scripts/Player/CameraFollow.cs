@@ -32,7 +32,7 @@ public class CameraFollow : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
+        if (player.FirstEntering) return;
 
         Vector3 position = this.transform.position;
         Vector2 screenCenter = new Vector2(Screen.width, Screen.height) / 2;

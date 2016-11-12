@@ -20,7 +20,7 @@ public class GameOver : MonoBehaviour {
     
     public void OnRestartButton()
     {
-        Application.LoadLevel("game");
+        Application.LoadLevel("level1");
     }
 
     public void OnQuitButton()
