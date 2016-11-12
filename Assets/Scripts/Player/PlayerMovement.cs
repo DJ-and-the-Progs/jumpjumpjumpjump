@@ -33,10 +33,16 @@ public class PlayerMovement : MonoBehaviour {
     [SerializeField]
     private float maxCurveTime = 0.5f;
 
+    [SerializeField]
+    [Tooltip("Used for first jumping into the scene")]
+    private float staringVelocity = 0.1f;
+    private bool firstEntering = true;
+    public bool FirstEntering { get { return firstEntering; } }
+
 	// Use this for initialization
 	void Start () {
-        lastJumpFrom = this.transform.position.y;
-        jumpTime = 0;
+        jumpTime = Time.time - maxCurveTime;
+        lastJumpFrom = this.transform.position.y - bounceCurve.Evaluate(maxCurveTime) * bounceHeight;
 	}
 	
 	// Update is called once per frame
@@ -49,7 +55,7 @@ public class PlayerMovement : MonoBehaviour {
         target.y = lastJumpFrom + currentJumpHeight;
 
         // Player movement control
-		float horizontalInput = Input.GetAxisRaw("Horizontal");
+		float horizontalInput = Input.GetAxisRaw("Horizontal") * (firstEntering ? 0:1);
         // Only damp if not trying to move (With tolerance)
         if (Mathf.Abs(horizontalInput) < 0.1f)
         {
@@ -59,12 +65,18 @@ public class PlayerMovement : MonoBehaviour {
         }
         this.horizVelocity += horizontalInput * movementAccel;
         this.horizVelocity = Mathf.Clamp(this.horizVelocity, -maxVelocity, maxVelocity);
-		float changeInPosition = currentTime <= movementVelocityThreshhold ? 0: horizVelocity ;
+        if (firstEntering) this.horizVelocity = staringVelocity;
+
+        float horizontalTarget = this.CheckHorizontalMovement(horizVelocity);
+        if (horizontalTarget == 0) this.horizVelocity = 0; // Reset vel, hitting wall
+
+		float changeInPosition = currentTime <= movementVelocityThreshhold ? 0: horizontalTarget ;
         target.x += changeInPosition;
 
         Rigidbody rb = this.GetComponent<Rigidbody>();
         rb.velocity = Vector3.zero;
-        rb.MovePosition(target);
+        //rb.MovePosition(target);
+        this.transform.position = target;
 
         // Look down for collisions with floor
         RaycastHit hit;
@@ -74,6 +86,10 @@ public class PlayerMovement : MonoBehaviour {
         if (this.IsGoingDown() && Physics.SphereCast(this.transform.position, spherecastRadius, Vector3.down, out hit, lookAheadDistance, layerMask))
         {
             debugHitColor = Color.red;
+            // Reset velocity from scripted velocity based on current input
+            if (firstEntering) this.horizVelocity = Input.GetAxisRaw("Horizontal") * maxVelocity;
+            firstEntering = false;
+
             lastJumpFrom = hit.point.y + 1;
             jumpTime = Time.time;
 
@@ -99,5 +115,28 @@ public class PlayerMovement : MonoBehaviour {
     public bool IsGoingDown()
     {
         return Time.time - jumpTime > maxCurveTime;
+    }
+
+
+    public float CheckHorizontalMovement(float horizontalTarget)
+    {
+        int layerMask = LayerMask.GetMask("Default");
+        float distance = Mathf.Abs(horizontalTarget);
+
+        // Check head
+        RaycastHit hit;
+        Vector3 headStart = this.transform.position + Vector3.up * 0.5f;
+        Vector3 feetStart = this.transform.position + Vector3.down * 0.5f;
+        if (Physics.SphereCast(headStart, 0.5f, Vector3.right * Mathf.Sign(horizontalTarget), out hit, distance, layerMask))
+        {
+            horizontalTarget = 0; // Mathf.Min(Mathf.Abs(horizontalTarget), Mathf.Abs(this.transform.position.x - hit.point.x)) * Mathf.Sign(horizontalTarget);
+        }
+
+        // Check feet
+        else if (Physics.SphereCast(feetStart, 0.5f, Vector3.right * Mathf.Sign(horizontalTarget), out hit, distance, layerMask))
+        {
+            horizontalTarget = 0;
+        }
+        return horizontalTarget;
     }
 }
