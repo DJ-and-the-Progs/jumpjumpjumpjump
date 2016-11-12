@@ -24,7 +24,7 @@ GameObject:
   - 23: {fileID: 23000011603636752}
   - 54: {fileID: 54000010184428422}
   - 114: {fileID: 114000011179098942}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -133,7 +133,6 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 0
   bounceHeight: 5
-  movementVelocity: 0.1
   movementAccel: 0.005
   maxVelocity: 0.1
   minVelocityCuttoff: 0.015

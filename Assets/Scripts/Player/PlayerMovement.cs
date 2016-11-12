@@ -69,7 +69,9 @@ public class PlayerMovement : MonoBehaviour {
         // Look down for collisions with floor
         RaycastHit hit;
         Color debugHitColor = Color.green;
-        if (this.IsGoingDown() && Physics.SphereCast(this.transform.position, spherecastRadius, Vector3.down, out hit, floorLookDistance))
+        float lookAheadDistance = floorLookDistance + Mathf.Abs(bounceCurve.Evaluate(currentTime + Time.deltaTime) * bounceHeight - currentJumpHeight);
+        int layerMask = LayerMask.GetMask("Default"); // What layers to look for detection
+        if (this.IsGoingDown() && Physics.SphereCast(this.transform.position, spherecastRadius, Vector3.down, out hit, lookAheadDistance, layerMask))
         {
             debugHitColor = Color.red;
             lastJumpFrom = hit.point.y + 1;
@@ -79,7 +81,7 @@ public class PlayerMovement : MonoBehaviour {
             hit.collider.gameObject.SendMessage("OnPlayerBounceOn", this.gameObject, SendMessageOptions.DontRequireReceiver);
         }
 
-        if (!this.IsGoingDown() && Physics.SphereCast(this.transform.position, spherecastRadius, Vector3.up, out hit, floorLookDistance))
+        if (!this.IsGoingDown() && Physics.SphereCast(this.transform.position, spherecastRadius, Vector3.up, out hit, lookAheadDistance, layerMask))
         {
             jumpTime = Time.time - 0.5f;
             lastJumpFrom = hit.point.y - 1 - bounceCurve.Evaluate(0.5f) * bounceHeight;
