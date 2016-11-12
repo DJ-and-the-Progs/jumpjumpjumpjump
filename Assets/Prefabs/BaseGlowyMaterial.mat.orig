@@ -7,7 +7,11 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: BaseGlowyMaterial
+<<<<<<< HEAD
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+=======
+  m_Shader: {fileID: 10, guid: 0000000000000000f000000000000000, type: 0}
+>>>>>>> 7eb90e94b09ad190b05dcbd6a6fc98864a92b02b
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 1
   m_CustomRenderQueue: -1
@@ -43,6 +47,12 @@ Material:
         name: _EmissionMap
       second:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Illum
+      second:
+        m_Texture: {fileID: 2800000, guid: e5e66816627f0da4e818ca880d246f01, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
@@ -82,6 +92,9 @@ Material:
     - first:
         name: _DstBlend
       second: 0
+    - first:
+        name: _Emission
+      second: 1
     - first:
         name: _GlossMapScale
       second: 1
