@@ -7,12 +7,16 @@ public class ScoreCounter : MonoBehaviour {
     public Text ScoreText1;
     public Text ScoreText2;
 
+    [SerializeField]
+    private GameObject comboText;
+
     private int actualScore = 0;
     private int displayScore = 0;
 
     public int Score { get { return actualScore; } }
 
     private float timer = 0;
+    private int combo = 0;
 
 	// Update is called once per frame
 	void Update ()
@@ -44,7 +48,25 @@ public class ScoreCounter : MonoBehaviour {
 
     public void AddScore(int amount)
     {
-        actualScore += amount;
+        actualScore += amount * Mathf.Max(1, combo);
         timer = .3f;
+    }
+
+    // Called by enemy when destroyed
+    public void NotifyLastHit(Vector3 position)
+    {
+        combo++;
+        if (combo > 1)
+        {
+            GameObject inst = (GameObject)Instantiate(comboText);
+            inst.SendMessage("SetText", "x" + combo);
+            inst.transform.position = position;
+        }
+    }
+
+    // Called by enemy when hit but not destroyed
+    public void NotifyDamage(Vector3 position)
+    {
+        combo = 0;
     }
 }
