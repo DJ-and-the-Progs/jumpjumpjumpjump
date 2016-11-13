@@ -124,6 +124,7 @@ ModelImporter:
     100232: ToeTap
     100234: ZeroGRP_LF_IK
     100236: ZeroGRP_RF_IK
+    100238: Scarf
     400000: Body
     400002: BodySeperated
     400004: Glasses
@@ -243,6 +244,7 @@ ModelImporter:
     400232: ToeTap
     400234: ZeroGRP_LF_IK
     400236: ZeroGRP_RF_IK
+    400238: Scarf
     2300000: Body
     2300002: Glasses
     2300004: Hair
@@ -254,6 +256,7 @@ ModelImporter:
     2300016: SpeakersHips
     2300018: Lyric_Clothes
     2300020: Lyric_Head
+    2300022: Scarf
     3300000: Body
     3300002: Glasses
     3300004: Hair
@@ -265,6 +268,7 @@ ModelImporter:
     3300016: SpeakersHips
     3300018: Lyric_Clothes
     3300020: Lyric_Head
+    3300022: Scarf
     4300000: Speaker_Boots
     4300002: Hair
     4300004: Head
@@ -276,6 +280,7 @@ ModelImporter:
     4300016: Glasses
     4300018: Lyric_Clothes
     4300020: Lyric_Head
+    4300022: Scarf
   materials:
     importMaterials: 1
     materialName: 0
