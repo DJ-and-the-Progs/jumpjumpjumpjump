@@ -3331,7 +3331,7 @@ TrailRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000012977879068}
+  m_GameObject: {fileID: 1000012503545402}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -3436,6 +3436,7 @@ MonoBehaviour:
   maxCurveTime: 0.5
   rotationSpeed: 10
   staringVelocity: 11.35
+  maxStartingX: -4.76
   lyricAnimator: {fileID: 95000013509772038}
 --- !u!114 &114000012656348460
 MonoBehaviour:
@@ -3660,7 +3661,7 @@ ParticleSystem:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000012977879068}
+  m_GameObject: {fileID: 1000012503545402}
   serializedVersion: 4
   lengthInSec: 0.1
   startDelay:
@@ -5394,7 +5395,7 @@ ParticleSystemRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000012977879068}
+  m_GameObject: {fileID: 1000012503545402}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0

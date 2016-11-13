@@ -2374,7 +2374,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxScore: 10000
   starScores: e8030000d0070000b80b0000
-  nextLevel: 
+  nextLevel: thats all folks
 --- !u!82 &1534048946
 AudioSource:
   m_ObjectHideFlags: 0

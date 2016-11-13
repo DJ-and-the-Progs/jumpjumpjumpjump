@@ -67,7 +67,7 @@ public class LevelComplete : MonoBehaviour {
 
     public void OnNextLevelClicked()
     {
-        Application.LoadLevel("game");
+        Application.LoadLevel(level.NextLevel);
     }
     public void OnMenuClicked()
     {
