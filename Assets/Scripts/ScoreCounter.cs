@@ -46,7 +46,7 @@ public class ScoreCounter : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            AddScore(1000);
+            //AddScore(1000);
         }
 	}
 

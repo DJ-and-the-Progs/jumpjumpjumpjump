@@ -3467,6 +3467,9 @@ MonoBehaviour:
   staringVelocity: 11.35
   maxStartingX: -4.76
   lyricAnimator: {fileID: 95000013509772038}
+  adjustmentDistance: 3
+  adjustmentLookRadius: 2.62
+  adjustmentRate: 5
 --- !u!114 &114000012656348460
 MonoBehaviour:
   m_ObjectHideFlags: 1
