@@ -17,27 +17,28 @@ public class Enemy : MonoBehaviour {
     private int hitScore;
     [SerializeField]
     [Tooltip("How many points received for final hit")]
-
-
-
-
-
-
 	private int killScore;
 
     private int maxHits;
-
-    [SerializeField]
-    protected bool debugScaleOnHit = true;
 
     protected ScoreCounter scoreCounter;
 
     [SerializeField]
     protected Animator animator;
 
+
+    [SerializeField]
+    private SkinnedMeshRenderer skin;
+    [SerializeField]
+    private Color[] colors;
+
+
+
 	// Use this for initialization
 	void Start () {
         maxHits = hits;
+        skin.materials[4].color = colors[hits];
+        skin.materials[5].color = colors[hits];
 
         scoreCounter = GameObject.FindGameObjectWithTag("ScoreKeeper").GetComponent<ScoreCounter>();
 	}
@@ -80,13 +81,11 @@ public class Enemy : MonoBehaviour {
 
         GameObject shockWave = Instantiate(particleEffect);
         shockWave.transform.position = this.transform.position;
-        
-        if (debugScaleOnHit)
-        {
-            Vector3 scale = this.transform.localScale;
-            scale.y = (float)hits / (float)maxHits;
-            this.transform.localScale = scale;
-        }
+
+        // Change color of tv
+        skin.materials[4].color = colors[hits];
+        skin.materials[5].color = colors[hits];
+
 		AudioSource.PlayClipAtPoint(this.audioClip, this.transform.position);
 	}
 }

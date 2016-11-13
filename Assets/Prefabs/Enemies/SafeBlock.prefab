@@ -36,10 +36,10 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000012683618596}
-  - 114: {fileID: 114000011437755572}
   - 135: {fileID: 135000012278886840}
+  - 114: {fileID: 114000014029568864}
   m_Layer: 0
-  m_Name: Crate
+  m_Name: SafeBlock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65,7 +65,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012892826808}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.76, y: 0, z: 0}
+  m_LocalPosition: {x: -0.59, y: 1.34, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -86,7 +86,6 @@ MeshRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 2100000, guid: c337db4addf9b484c817f63753651bbc, type: 2}
-  - {fileID: 2100000, guid: 00b2cd4d38c4fad46b2094fe52f29b72, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -109,7 +108,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012131414534}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &114000011437755572
+--- !u!114 &114000014029568864
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -117,17 +116,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000012892826808}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbe45dbedee46b441bfa6d18ca5364b5, type: 3}
+  m_Script: {fileID: 11500000, guid: cdd9da2ec6e46bb4c9978bb7b82e157c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioClip: {fileID: 8300000, guid: f3ba008d57b452c4fa0a906cbdf20ee5, type: 3}
+  audioClip: {fileID: 0}
   particleEffect: {fileID: 1000011567781092, guid: 568ece5761b551b4ca18cd0007de675f,
     type: 2}
-  hits: 3
-  hitScore: 50
-  killScore: 100
-  debugScaleOnHit: 1
-  animator: {fileID: 0}
 --- !u!135 &135000012278886840
 SphereCollider:
   m_ObjectHideFlags: 1
