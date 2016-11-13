@@ -71,6 +71,6 @@ public class LevelComplete : MonoBehaviour {
     }
     public void OnMenuClicked()
     {
-        Application.LoadLevel("main menu");
+        Application.LoadLevel("MainNew");
     }
 }
