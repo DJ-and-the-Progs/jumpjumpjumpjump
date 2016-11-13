@@ -55,12 +55,20 @@ public class Enemy : MonoBehaviour {
         this.hits--;
         if (this.hits <= 0)
         {
-            if (scoreCounter) scoreCounter.AddScore(this.killScore);
+            if (scoreCounter)
+            {
+                scoreCounter.NotifyLastHit(this.transform.position + Vector3.up * 0.8f);
+                scoreCounter.AddScore(this.killScore);
+            }
             this.Die();
         }
         else
         {
-            if (scoreCounter) scoreCounter.AddScore(this.hitScore);
+            if (scoreCounter)
+            {
+                scoreCounter.NotifyDamage(this.transform.position + Vector3.up * 0.8f);
+                scoreCounter.AddScore(this.hitScore);
+            }
         }
 
         GameObject shockWave = Instantiate(particleEffect);
