@@ -12,7 +12,18 @@ public class SeeSawBlock : MonoBehaviour {
 
     protected ScoreCounter scoreCounter;
 
-    public GameObject other;
+    [SerializeField]
+    private SeeSawBlock other;
+
+    [SerializeField]
+    private Color[] colors;
+
+    private int offset = 0;
+    [SerializeField]
+    private int maxOffset = 2;
+
+    [SerializeField]
+    private Renderer myRenderer;
 
 	// Use this for initialization
 	void Start () {
@@ -41,10 +52,15 @@ public class SeeSawBlock : MonoBehaviour {
 
         GameObject shockWave = Instantiate(particleEffect);
         shockWave.transform.position = this.transform.position;
-
-        if (other) {
-            transform.position -= new Vector3(0, 1, 0);
-            other.transform.position += new Vector3(0, 1, 0);
+        
+        if (other && offset > -maxOffset) {
+            offset--;
+            transform.position -= new Vector3(0, 1.25f, 0);
+            myRenderer.material.color = colors[Mathf.Abs(offset)];
+            
+            other.offset++;
+            other.transform.position += new Vector3(0, 1.25f, 0);
+            other.myRenderer.material.color = colors[Mathf.Abs(offset)];
         }
 
 
