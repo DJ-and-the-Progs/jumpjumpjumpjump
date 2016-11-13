@@ -1,0 +1,126 @@
+fileFormatVersion: 2
+guid: 2240ec0490abd9a43aa3198831a42036
+timeCreated: 1479016835
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ArrowCTRL5
+    100002: CTRL_Antenna_L
+    100004: CTRL_AntennaR
+    100006: CTRL_EYE2
+    100008: GlobalCTRL_02
+    100010: group1
+    100012: group2
+    100014: JNT_Antenna_L_1
+    100016: JNT_Antenna_L_2
+    100018: JNT_Antenna_R_1
+    100020: JNT_Antenna_R_2
+    100022: JNT_EyeBlink_L
+    100024: JNT_EyeBlink_L_2
+    100026: JNT_EyeBlink_R
+    100028: JNT_EyeBlink_R_2
+    100030: JNT_RT
+    100032: JNT_Tail1
+    100034: JNT_Tail2
+    100036: JNT_Tail3
+    100038: joint2
+    100040: RingCTRL1
+    100042: RingCTRL2
+    100044: TVDude
+    100046: //RootNode
+    400000: ArrowCTRL5
+    400002: CTRL_Antenna_L
+    400004: CTRL_AntennaR
+    400006: CTRL_EYE2
+    400008: GlobalCTRL_02
+    400010: group1
+    400012: group2
+    400014: JNT_Antenna_L_1
+    400016: JNT_Antenna_L_2
+    400018: JNT_Antenna_R_1
+    400020: JNT_Antenna_R_2
+    400022: JNT_EyeBlink_L
+    400024: JNT_EyeBlink_L_2
+    400026: JNT_EyeBlink_R
+    400028: JNT_EyeBlink_R_2
+    400030: JNT_RT
+    400032: JNT_Tail1
+    400034: JNT_Tail2
+    400036: JNT_Tail3
+    400038: joint2
+    400040: RingCTRL1
+    400042: RingCTRL2
+    400044: TVDude
+    400046: //RootNode
+    4300000: TVDude
+    7400000: Base
+    7400002: Idle
+    7400004: Hit
+    7400006: WakeUp
+    9500000: //RootNode
+    13700000: TVDude
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

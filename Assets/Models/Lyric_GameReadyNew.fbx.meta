@@ -1,0 +1,305 @@
+fileFormatVersion: 2
+guid: 463c1a61b5b1b494981f4faae3f12773
+timeCreated: 1479017190
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BallRoll
+    100002: Bind_Joint_Head_Low
+    100004: Bind_Joint_L_Arm_13
+    100006: Bind_Joint_L_Arm_2
+    100008: Bind_Joint_L_Arm_3
+    100010: Bind_Joint_L_Arm_Clav
+    100012: Bind_Joint_L_Arm_R
+    100014: Bind_Joint_L_Finger_1
+    100016: Bind_Joint_L_Finger_2
+    100018: Bind_Joint_L_Finger_2 1
+    100020: Bind_Joint_L_Finger_3
+    100022: Bind_Joint_L_Finger_3 1
+    100024: Bind_Joint_L_Finger_4
+    100026: Bind_Joint_L_Index_1
+    100028: Bind_Joint_L_Index_2
+    100030: Bind_Joint_L_Index_2 1
+    100032: Bind_Joint_L_Index_3
+    100034: Bind_Joint_L_Index_3 1
+    100036: Bind_Joint_L_Index_4
+    100038: Bind_Joint_L_Leg_1
+    100040: Bind_Joint_L_Leg_2
+    100042: Bind_Joint_L_Leg_3
+    100044: Bind_Joint_L_Leg_4
+    100046: Bind_Joint_L_Leg_Root
+    100048: Bind_Joint_L_Thumb_1
+    100050: Bind_Joint_L_Thumb_2
+    100052: Bind_Joint_L_Thumb_3
+    100054: Bind_Joint_Neck
+    100056: Bind_Joint_R_Arm_13
+    100058: Bind_Joint_R_Arm_2
+    100060: Bind_Joint_R_Arm_3
+    100062: Bind_Joint_R_Arm_Clav
+    100064: Bind_Joint_R_Arm_R
+    100066: Bind_Joint_R_Finger_1
+    100068: Bind_Joint_R_Finger_2
+    100070: Bind_Joint_R_Finger_2 1
+    100072: Bind_Joint_R_Finger_3
+    100074: Bind_Joint_R_Finger_3 1
+    100076: Bind_Joint_R_Finger_4
+    100078: Bind_Joint_R_Index_1
+    100080: Bind_Joint_R_Index_2
+    100082: Bind_Joint_R_Index_2 1
+    100084: Bind_Joint_R_Index_3
+    100086: Bind_Joint_R_Index_3 1
+    100088: Bind_Joint_R_Index_4
+    100090: Bind_Joint_R_Leg_1
+    100092: Bind_Joint_R_Leg_2
+    100094: Bind_Joint_R_Leg_3
+    100096: Bind_Joint_R_Leg_4
+    100098: Bind_Joint_R_Leg_Root
+    100100: Bind_Joint_R_Thumb_1
+    100102: Bind_Joint_R_Thumb_2
+    100104: Bind_Joint_R_Thumb_3
+    100106: Bind_Joint_Spine_1
+    100108: Bind_Joint_Spine_2
+    100110: Bind_Joint_Spine_3
+    100112: Bind_Joint_Spine_4
+    100114: Bind_Joint_Spine_Head_Top
+    100116: Bind_Joint_Spine_R
+    100118: CTRL_Arm_L_1
+    100120: CTRL_Arm_L_2
+    100122: CTRL_Arm_L_3
+    100124: CTRL_Arm_R_1
+    100126: CTRL_Arm_R_2
+    100128: CTRL_Arm_R_3
+    100130: CTRL_Chest
+    100132: CTRL_Flip
+    100134: CTRL_Global
+    100136: CTRL_Head
+    100138: CTRL_Hips
+    100140: CTRL_IK_FL
+    100142: CTRL_IK_FR
+    100144: CTRL_LL_1
+    100146: CTRL_LL_2
+    100148: CTRL_LL_Hip
+    100150: CTRL_LR_1
+    100152: CTRL_LR_2
+    100154: CTRL_LR_Hip
+    100156: CTRL_Root
+    100158: CTRL_waistPivot
+    100160: group1
+    100162: group2
+    100164: group2 1
+    100166: group3
+    100168: group3 1
+    100170: group4
+    100172: HeelTwist
+    100174: ikHandle1
+    100176: ikHandle2
+    100178: ikHandle3
+    100180: LFT_BallRaise
+    100182: LFT_ToeRaise
+    100184: LFT_ToeTwist
+    100186: LFTIK
+    100188: Lyric
+    100190: Lyric_Clothes
+    100192: //RootNode
+    100194: Lyric_Head
+    100196: nurbsCircle1
+    100198: nurbsCircle2
+    100200: nurbsCircle3
+    100202: nurbsCircle4
+    100204: RFT_BallRaise
+    100206: RFT_ToeRaise
+    100208: RFT_ToeTwist
+    100210: RFTIK
+    100212: Scarf
+    100214: ToeTap
+    100216: ZeroGRP_LF_IK
+    100218: ZeroGRP_RF_IK
+    400000: BallRoll
+    400002: Bind_Joint_Head_Low
+    400004: Bind_Joint_L_Arm_13
+    400006: Bind_Joint_L_Arm_2
+    400008: Bind_Joint_L_Arm_3
+    400010: Bind_Joint_L_Arm_Clav
+    400012: Bind_Joint_L_Arm_R
+    400014: Bind_Joint_L_Finger_1
+    400016: Bind_Joint_L_Finger_2
+    400018: Bind_Joint_L_Finger_2 1
+    400020: Bind_Joint_L_Finger_3
+    400022: Bind_Joint_L_Finger_3 1
+    400024: Bind_Joint_L_Finger_4
+    400026: Bind_Joint_L_Index_1
+    400028: Bind_Joint_L_Index_2
+    400030: Bind_Joint_L_Index_2 1
+    400032: Bind_Joint_L_Index_3
+    400034: Bind_Joint_L_Index_3 1
+    400036: Bind_Joint_L_Index_4
+    400038: Bind_Joint_L_Leg_1
+    400040: Bind_Joint_L_Leg_2
+    400042: Bind_Joint_L_Leg_3
+    400044: Bind_Joint_L_Leg_4
+    400046: Bind_Joint_L_Leg_Root
+    400048: Bind_Joint_L_Thumb_1
+    400050: Bind_Joint_L_Thumb_2
+    400052: Bind_Joint_L_Thumb_3
+    400054: Bind_Joint_Neck
+    400056: Bind_Joint_R_Arm_13
+    400058: Bind_Joint_R_Arm_2
+    400060: Bind_Joint_R_Arm_3
+    400062: Bind_Joint_R_Arm_Clav
+    400064: Bind_Joint_R_Arm_R
+    400066: Bind_Joint_R_Finger_1
+    400068: Bind_Joint_R_Finger_2
+    400070: Bind_Joint_R_Finger_2 1
+    400072: Bind_Joint_R_Finger_3
+    400074: Bind_Joint_R_Finger_3 1
+    400076: Bind_Joint_R_Finger_4
+    400078: Bind_Joint_R_Index_1
+    400080: Bind_Joint_R_Index_2
+    400082: Bind_Joint_R_Index_2 1
+    400084: Bind_Joint_R_Index_3
+    400086: Bind_Joint_R_Index_3 1
+    400088: Bind_Joint_R_Index_4
+    400090: Bind_Joint_R_Leg_1
+    400092: Bind_Joint_R_Leg_2
+    400094: Bind_Joint_R_Leg_3
+    400096: Bind_Joint_R_Leg_4
+    400098: Bind_Joint_R_Leg_Root
+    400100: Bind_Joint_R_Thumb_1
+    400102: Bind_Joint_R_Thumb_2
+    400104: Bind_Joint_R_Thumb_3
+    400106: Bind_Joint_Spine_1
+    400108: Bind_Joint_Spine_2
+    400110: Bind_Joint_Spine_3
+    400112: Bind_Joint_Spine_4
+    400114: Bind_Joint_Spine_Head_Top
+    400116: Bind_Joint_Spine_R
+    400118: CTRL_Arm_L_1
+    400120: CTRL_Arm_L_2
+    400122: CTRL_Arm_L_3
+    400124: CTRL_Arm_R_1
+    400126: CTRL_Arm_R_2
+    400128: CTRL_Arm_R_3
+    400130: CTRL_Chest
+    400132: CTRL_Flip
+    400134: CTRL_Global
+    400136: CTRL_Head
+    400138: CTRL_Hips
+    400140: CTRL_IK_FL
+    400142: CTRL_IK_FR
+    400144: CTRL_LL_1
+    400146: CTRL_LL_2
+    400148: CTRL_LL_Hip
+    400150: CTRL_LR_1
+    400152: CTRL_LR_2
+    400154: CTRL_LR_Hip
+    400156: CTRL_Root
+    400158: CTRL_waistPivot
+    400160: group1
+    400162: group2
+    400164: group2 1
+    400166: group3
+    400168: group3 1
+    400170: group4
+    400172: HeelTwist
+    400174: ikHandle1
+    400176: ikHandle2
+    400178: ikHandle3
+    400180: LFT_BallRaise
+    400182: LFT_ToeRaise
+    400184: LFT_ToeTwist
+    400186: LFTIK
+    400188: Lyric
+    400190: Lyric_Clothes
+    400192: //RootNode
+    400194: Lyric_Head
+    400196: nurbsCircle1
+    400198: nurbsCircle2
+    400200: nurbsCircle3
+    400202: nurbsCircle4
+    400204: RFT_BallRaise
+    400206: RFT_ToeRaise
+    400208: RFT_ToeTwist
+    400210: RFTIK
+    400212: Scarf
+    400214: ToeTap
+    400216: ZeroGRP_LF_IK
+    400218: ZeroGRP_RF_IK
+    4300000: Lyric_Clothes
+    4300002: Lyric_Head
+    4300004: Scarf
+    7400000: Base
+    7400002: Bounce_Idle
+    7400004: Bounce_FallShort
+    7400006: Bounce_Start
+    7400008: Bounce_FallLong
+    7400010: Bounce_StartClap
+    7400012: Bounce_FallClap
+    9500000: //RootNode
+    13700000: Lyric_Clothes
+    13700002: Lyric_Head
+    13700004: Scarf
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
