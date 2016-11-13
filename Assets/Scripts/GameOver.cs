@@ -12,7 +12,11 @@ public class GameOver : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (revealed && Input.GetAxisRaw("Jump") > 0) OnRestartButton();
+        if (revealed)
+        {
+            if (Input.GetAxisRaw("Enter") > 0) OnRestartButton();
+            if (Input.GetAxisRaw("Cancel") > 0) OnQuitButton();
+        }
 	}
 
     public void Reveal()
