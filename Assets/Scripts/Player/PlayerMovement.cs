@@ -39,10 +39,14 @@ public class PlayerMovement : MonoBehaviour {
     private bool firstEntering = true;
     public bool FirstEntering { get { return firstEntering; } }
 
+    private Animator lyricAnimator;
+
 	// Use this for initialization
 	void Start () {
         jumpTime = Time.time - maxCurveTime;
         lastJumpFrom = this.transform.position.y - bounceCurve.Evaluate(maxCurveTime) * bounceHeight;
+
+        lyricAnimator = this.transform.FindChild("Lyric").GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -96,6 +100,8 @@ public class PlayerMovement : MonoBehaviour {
             // Tell the thing we bounced on that we bounced on it
             object[] bounceData = new object[] { this.gameObject, hit.point };
             hit.collider.gameObject.SendMessage("OnPlayerBounceOn", bounceData, SendMessageOptions.DontRequireReceiver);
+
+            lyricAnimator.Play("Bounce", 0, 0.5f);
         }
 
         if (!this.IsGoingDown() && Physics.SphereCast(this.transform.position, spherecastRadius, Vector3.up, out hit, lookAheadDistance, layerMask))
