@@ -119,7 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdd9da2ec6e46bb4c9978bb7b82e157c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: f3ba008d57b452c4fa0a906cbdf20ee5, type: 3}
   particleEffect: {fileID: 1000011567781092, guid: 568ece5761b551b4ca18cd0007de675f,
     type: 2}
 --- !u!135 &135000012278886840
