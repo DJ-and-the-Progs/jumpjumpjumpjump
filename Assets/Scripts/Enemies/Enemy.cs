@@ -3,7 +3,10 @@ using System.Collections;
 
 public class Enemy : MonoBehaviour {
 
-    [SerializeField]
+	[SerializeField]
+	private AudioClip audioClip;
+
+	[SerializeField]
     private GameObject particleEffect;
 
     [SerializeField]
@@ -13,7 +16,13 @@ public class Enemy : MonoBehaviour {
     private int hitScore;
     [SerializeField]
     [Tooltip("How many points received for final hit")]
-    private int killScore;
+
+
+
+
+
+
+	private int killScore;
 
     private int maxHits;
 
@@ -63,5 +72,6 @@ public class Enemy : MonoBehaviour {
             scale.y = (float)hits / (float)maxHits;
             this.transform.localScale = scale;
         }
-    }
+		AudioSource.PlayClipAtPoint(this.audioClip, this.transform.position);
+	}
 }
