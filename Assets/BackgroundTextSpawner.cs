@@ -5,32 +5,24 @@ public class BackgroundTextSpawner : MonoBehaviour {
 
     public GameObject textPrefab;
 
-    float timer = 0;
+    private GameObject[] backgroundTextObjects = new GameObject[256];
+    private Banner[] banners = new Banner[256];
 
 	// Use this for initialization
 	void Start () {
-	    
-	}
-	
-	// Update is called once per frame
-	void Update () {
 
-        timer += Time.deltaTime;
-        if (timer > .02) {
-            timer = 0;
-
+        for(int i = 0; i < 256; i++)
+        {
             // spawn background text:
-            GameObject spawned = Instantiate(textPrefab);
-            Banner b = spawned.GetComponent<Banner>();
-            
+            backgroundTextObjects[i] = Instantiate(textPrefab);
+            banners[i] = backgroundTextObjects[i].GetComponent<Banner>();
+
             // pick a random starting position/direction
-            int startX = (int)(Random.value * 2);
-            startX = startX * 100 - 50;
-            int startY = (int)(Random.value * 50 - 20);
+            int startX = (int)(Random.value * 200 - 100);
+            int startY = (int)(Random.value * 50 - 25) * 3;
 
-            spawned.transform.position = new Vector3(startX, startY, 20);
-            b.velocity = new Vector3(-startX / 5, 0, 0);
+            backgroundTextObjects[i].transform.position = new Vector3(startX, startY, 20);
+            banners[i].velocity = new Vector3((int)(Random.value*2) % 2 * 10 - 5, 0, 0);
         }
-
 	}
 }
