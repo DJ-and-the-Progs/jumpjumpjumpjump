@@ -23,7 +23,8 @@ public class PlayerMovement : MonoBehaviour {
 	[SerializeField]
 	private float movementVelocityThreshhold;
 
-    private float lastJumpFrom; // Last Y height where we jumped off from
+	private float rotateTorwards = 0;
+	private float lastJumpFrom; // Last Y height where we jumped off from
     private float jumpTime;
 
     [SerializeField]
@@ -33,20 +34,22 @@ public class PlayerMovement : MonoBehaviour {
     [SerializeField]
     private float maxCurveTime = 0.5f;
 
-    [SerializeField]
+	[SerializeField]
+	private float rotationSpeed = 0.5f;
+
+	[SerializeField]
     [Tooltip("Used for first jumping into the scene")]
     private float staringVelocity = 0.1f;
     private bool firstEntering = true;
     public bool FirstEntering { get { return firstEntering; } }
 
+	[SerializeField]
     private Animator lyricAnimator;
 
 	// Use this for initialization
 	void Start () {
         jumpTime = Time.time - maxCurveTime;
         lastJumpFrom = this.transform.position.y - bounceCurve.Evaluate(maxCurveTime) * bounceHeight;
-
-        lyricAnimator = this.transform.FindChild("Lyric").GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -58,8 +61,9 @@ public class PlayerMovement : MonoBehaviour {
         float currentJumpHeight = bounceCurve.Evaluate(currentTime) * bounceHeight;
         target.y = lastJumpFrom + currentJumpHeight;
 
-        // Player movement control
-		float horizontalInput = Input.GetAxisRaw("Horizontal") * (firstEntering ? 0:1);
+		// Player movement control
+		float inputAxis = Input.GetAxisRaw("Horizontal");
+		float horizontalInput = inputAxis * (firstEntering ? 0:1);
         // Only damp if not trying to move (With tolerance)
         if (Mathf.Abs(horizontalInput) < 0.1f)
         {
@@ -71,7 +75,35 @@ public class PlayerMovement : MonoBehaviour {
         this.horizVelocity = Mathf.Clamp(this.horizVelocity, -maxVelocity, maxVelocity);
         if (firstEntering) this.horizVelocity = staringVelocity;
 
-        float horizontalTarget = this.CheckHorizontalMovement(horizVelocity * Time.deltaTime);
+		// Player movement angle
+		Quaternion currentRotation = this.transform.rotation;
+		Vector3 currentRotationEulerAngles = currentRotation.eulerAngles;
+		float currentAngle = currentRotation.eulerAngles.y;
+
+		Debug.Log(horizVelocity);
+		if (Mathf.Abs(horizVelocity) >= Mathf.Abs(maxVelocity/2))
+		{
+			if (horizontalInput < 0)
+			{
+				rotateTorwards = 180;
+			}
+			if (horizontalInput > 0)
+			{
+				rotateTorwards = 0;
+			}
+		}
+
+		currentAngle = Mathf.MoveTowards(currentAngle, rotateTorwards, rotationSpeed);
+
+		currentRotationEulerAngles.y = currentAngle;
+		currentRotation.eulerAngles = currentRotationEulerAngles;
+		this.transform.rotation = currentRotation;
+
+
+
+
+
+		float horizontalTarget = this.CheckHorizontalMovement(horizVelocity * Time.deltaTime);
         if (horizontalTarget == 0) this.horizVelocity = 0; // Reset vel, hitting wall
 
 		float changeInPosition = currentTime <= movementVelocityThreshhold ? 0: horizontalTarget ;
@@ -151,8 +183,7 @@ public class PlayerMovement : MonoBehaviour {
 	{
 		Destroy(this);
 		this.GetComponent<MoveToPortal>().enabled = true;
-		Animator animator = this.GetComponent<Animator>();
-		animator.SetTrigger("OnPortalCollide");
+		lyricAnimator.SetTrigger("OnPortalCollide");
 
         GameObject.FindGameObjectWithTag("LevelComplete").GetComponent<LevelComplete>().Reveal();
 
