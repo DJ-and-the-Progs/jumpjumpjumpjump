@@ -11,7 +11,8 @@ public class Enemy : MonoBehaviour {
 
     [SerializeField]
     private int hits = 1;
-    [SerializeField]
+
+	[SerializeField]
     [Tooltip("How namy points recieved for doing damage")]
     private int hitScore;
     [SerializeField]
