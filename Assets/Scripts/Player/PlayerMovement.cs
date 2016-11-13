@@ -48,6 +48,9 @@ public class PlayerMovement : MonoBehaviour {
 	[SerializeField]
     private Animator lyricAnimator;
 
+    private bool dead = false;
+    public bool Dead { get { return dead; } set { dead = value; } }
+
 	// Use this for initialization
 	void Start () {
         jumpTime = Time.time - maxCurveTime;

@@ -37,8 +37,11 @@ public class Enemy : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         maxHits = hits;
-        skin.materials[4].color = colors[hits];
-        skin.materials[5].color = colors[hits];
+        if (skin)
+        {
+            skin.materials[4].color = colors[hits];
+            skin.materials[5].color = colors[hits];
+        }
 
         scoreCounter = GameObject.FindGameObjectWithTag("ScoreKeeper").GetComponent<ScoreCounter>();
 	}
@@ -83,8 +86,11 @@ public class Enemy : MonoBehaviour {
         shockWave.transform.position = this.transform.position;
 
         // Change color of tv
-        skin.materials[4].color = colors[hits];
-        skin.materials[5].color = colors[hits];
+        if (skin)
+        {
+            skin.materials[4].color = colors[hits];
+            skin.materials[5].color = colors[hits];
+        }
 
 		AudioSource.PlayClipAtPoint(this.audioClip, this.transform.position);
 	}
