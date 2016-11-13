@@ -296,6 +296,7 @@ GameObject:
   - 224: {fileID: 224000014213760100}
   - 222: {fileID: 222000013027811494}
   - 114: {fileID: 114000013732220262}
+  - 114: {fileID: 114000013513566252}
   m_Layer: 5
   m_Name: ScoreKeeper
   m_TagString: ScoreKeeper
@@ -2383,7 +2384,7 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 41.9, y: -95.9}
+  m_AnchoredPosition: {x: 41.9, y: -110.64}
   m_SizeDelta: {x: 320, y: 120}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!224 &224000013520211858
