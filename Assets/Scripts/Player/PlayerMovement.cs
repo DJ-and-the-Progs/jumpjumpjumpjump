@@ -51,6 +51,13 @@ public class PlayerMovement : MonoBehaviour {
     private bool dead = false;
     public bool Dead { get { return dead; } set { dead = value; } }
 
+    [SerializeField]
+    private float adjustmentDistance = 3f;
+    [SerializeField]
+    private float adjustmentLookRadius = 2.12f;
+    [SerializeField]
+    private float adjustmentRate = 5f;
+
 	// Use this for initialization
 	void Start () {
         jumpTime = Time.time - maxCurveTime;
@@ -114,11 +121,6 @@ public class PlayerMovement : MonoBehaviour {
         target.x += changeInPosition;
         if (firstEntering) target.x = Mathf.Min(maxStartingX, target.x);
 
-        Rigidbody rb = this.GetComponent<Rigidbody>();
-        rb.velocity = Vector3.zero;
-        //rb.MovePosition(target);
-        this.transform.position = target;
-
         lyricAnimator.SetBool("falling", this.IsGoingDown());
         
 
@@ -151,6 +153,18 @@ public class PlayerMovement : MonoBehaviour {
         Debug.DrawRay(this.transform.position, Vector3.down * floorLookDistance, debugHitColor, 0.5f);
         // Line to show where we bounced from (last floor)
         Debug.DrawRay(this.transform.position, Vector3.down * (this.transform.position.y - lastJumpFrom), Color.blue);
+
+        if (this.IsGoingDown() && Physics.SphereCast(this.transform.position, adjustmentLookRadius, Vector3.down, out hit, adjustmentDistance, layerMask))
+        {
+            float diff = (hit.collider.transform.position.x-this.transform.position.x);
+            target.x += Mathf.Min(Mathf.Abs(diff), adjustmentRate * Time.deltaTime) * Mathf.Sign(diff);
+        }
+        Debug.DrawRay(this.transform.position, Vector3.down * adjustmentDistance, Color.cyan);
+
+        Rigidbody rb = this.GetComponent<Rigidbody>();
+        rb.velocity = Vector3.zero;
+        //rb.MovePosition(target);
+        this.transform.position = target;
 	}
 
     /// <summary>

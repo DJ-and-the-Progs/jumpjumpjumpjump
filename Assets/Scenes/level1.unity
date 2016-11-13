@@ -1386,6 +1386,21 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000011179098942, guid: 1279253995ce67146b108ec2e62a0389,
+        type: 2}
+      propertyPath: adjustmentDistance
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011179098942, guid: 1279253995ce67146b108ec2e62a0389,
+        type: 2}
+      propertyPath: adjustmentLookRadius
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011179098942, guid: 1279253995ce67146b108ec2e62a0389,
+        type: 2}
+      propertyPath: adjustmentRate
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1279253995ce67146b108ec2e62a0389, type: 2}
   m_IsPrefabParent: 0
