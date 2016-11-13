@@ -1302,9 +1302,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000010770132642}
-  - 96: {fileID: 96000012342995860}
-  - 198: {fileID: 198000013354812648}
-  - 199: {fileID: 199000011436539074}
   m_Layer: 0
   m_Name: Bind_Joint_Neck
   m_TagString: Untagged
@@ -1352,6 +1349,24 @@ GameObject:
   - 4: {fileID: 4000013128151160}
   m_Layer: 0
   m_Name: Bind_Joint_L_Arm_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000013261599846
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000012734900114}
+  - 96: {fileID: 96000013795163324}
+  - 199: {fileID: 199000012354527142}
+  - 198: {fileID: 198000011618973094}
+  m_Layer: 0
+  m_Name: Trail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2730,6 +2745,19 @@ Transform:
   - {fileID: 4000012799545286}
   m_Father: {fileID: 4000013385813340}
   m_RootOrder: 1
+--- !u!4 &4000012734900114
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013261599846}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.669, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000013256952342}
+  m_RootOrder: 0
 --- !u!4 &4000012754173674
 Transform:
   m_ObjectHideFlags: 1
@@ -2983,7 +3011,8 @@ Transform:
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
+  m_Children:
+  - {fileID: 4000012734900114}
   m_Father: {fileID: 4000012669858642}
   m_RootOrder: 2
 --- !u!4 &4000013284060398
@@ -3326,12 +3355,12 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!96 &96000012342995860
+--- !u!96 &96000013795163324
 TrailRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000012962145020}
+  m_GameObject: {fileID: 1000013261599846}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -3339,7 +3368,7 @@ TrailRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: 985f3817c33206945888ce0449f8c8a1, type: 2}
+  - {fileID: 2100000, guid: 9b311689526b8224aad1cab3ff6b7765, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -3361,16 +3390,16 @@ TrailRenderer:
   m_Colors:
     m_Color[0]:
       serializedVersion: 2
-      rgba: 4294967295
+      rgba: 4294902015
     m_Color[1]:
       serializedVersion: 2
-      rgba: 4294967295
+      rgba: 4294902015
     m_Color[2]:
       serializedVersion: 2
-      rgba: 4294967295
+      rgba: 4294902015
     m_Color[3]:
       serializedVersion: 2
-      rgba: 4294967295
+      rgba: 16711935
     m_Color[4]:
       serializedVersion: 2
       rgba: 16711935
@@ -3436,6 +3465,7 @@ MonoBehaviour:
   maxCurveTime: 0.5
   rotationSpeed: 10
   staringVelocity: 11.35
+  maxStartingX: -4.76
   lyricAnimator: {fileID: 95000013509772038}
 --- !u!114 &114000012656348460
 MonoBehaviour:
@@ -3655,12 +3685,12 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.28453594, y: 0.06712403, z: -0.009903699}
     m_Extent: {x: 0.28879952, y: 0.27905855, z: 0.21989338}
   m_DirtyAABB: 0
---- !u!198 &198000013354812648
+--- !u!198 &198000011618973094
 ParticleSystem:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000012962145020}
+  m_GameObject: {fileID: 1000013261599846}
   serializedVersion: 4
   lengthInSec: 0.1
   startDelay:
@@ -3705,7 +3735,7 @@ ParticleSystem:
   moveWithTransform: 0
   autoRandomSeed: 1
   scalingMode: 1
-  randomSeed: -1340270196
+  randomSeed: 77815298
   InitialModule:
     serializedVersion: 2
     enabled: 1
@@ -5389,12 +5419,12 @@ ParticleSystem:
     subEmitterCollision1: {fileID: 0}
     subEmitterDeath: {fileID: 0}
     subEmitterDeath1: {fileID: 0}
---- !u!199 &199000011436539074
+--- !u!199 &199000012354527142
 ParticleSystemRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000012962145020}
+  m_GameObject: {fileID: 1000013261599846}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0

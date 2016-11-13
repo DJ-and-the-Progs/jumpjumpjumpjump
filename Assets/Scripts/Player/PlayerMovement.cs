@@ -42,6 +42,8 @@ public class PlayerMovement : MonoBehaviour {
     private float staringVelocity = 0.1f;
     private bool firstEntering = true;
     public bool FirstEntering { get { return firstEntering; } }
+    [SerializeField]
+    private float maxStartingX;
 
 	[SerializeField]
     private Animator lyricAnimator;
@@ -107,6 +109,7 @@ public class PlayerMovement : MonoBehaviour {
 
 		float changeInPosition = currentTime <= movementVelocityThreshhold ? 0: horizontalTarget ;
         target.x += changeInPosition;
+        if (firstEntering) target.x = Mathf.Min(maxStartingX, target.x);
 
         Rigidbody rb = this.GetComponent<Rigidbody>();
         rb.velocity = Vector3.zero;
