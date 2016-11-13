@@ -68,10 +68,10 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013555732184}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.6, z: -0.8}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
+  m_LocalPosition: {x: 135.2, y: -0.9, z: -0.8}
   m_LocalScale: {x: 5, y: 3.38, z: 0.99999994}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
   m_Children:
   - {fileID: 4000012188891070}
   - {fileID: 4000014183819566}
@@ -189,7 +189,7 @@ ParticleSystem:
     minMaxState: 0
   speed: 1
   looping: 1
-  prewarm: 0
+  prewarm: 1
   playOnAwake: 1
   moveWithTransform: 1
   autoRandomSeed: 0
