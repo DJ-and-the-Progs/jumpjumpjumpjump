@@ -10,6 +10,7 @@ public class ScoreCounter : MonoBehaviour {
     private int actualScore = 0;
     private int displayScore = 0;
 
+    public int Score { get { return actualScore; } }
 
     private float timer = 0;
 

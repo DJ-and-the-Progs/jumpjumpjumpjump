@@ -148,5 +148,7 @@ public class PlayerMovement : MonoBehaviour {
 		Animator animator = this.GetComponent<Animator>();
 		animator.SetTrigger("OnPortalCollide");
 
+        GameObject.FindGameObjectWithTag("LevelComplete").GetComponent<LevelComplete>().Reveal();
+
 	}
 }
