@@ -80,7 +80,7 @@ public class PlayerMovement : MonoBehaviour {
 		Vector3 currentRotationEulerAngles = currentRotation.eulerAngles;
 		float currentAngle = currentRotation.eulerAngles.y;
 
-		Debug.Log(horizVelocity);
+
 		if (Mathf.Abs(horizVelocity) >= Mathf.Abs(maxVelocity/2))
 		{
 			if (horizontalInput < 0)

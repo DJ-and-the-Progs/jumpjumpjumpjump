@@ -3520,7 +3520,7 @@ Prefab:
     - target: {fileID: 224000012411097286, guid: 24d03592326d50a419543070dfeb5397,
         type: 2}
       propertyPath: m_LocalPosition.z
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000012411097286, guid: 24d03592326d50a419543070dfeb5397,
         type: 2}
@@ -3555,7 +3555,7 @@ Prefab:
     - target: {fileID: 224000012411097286, guid: 24d03592326d50a419543070dfeb5397,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 299.99963
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000012411097286, guid: 24d03592326d50a419543070dfeb5397,
         type: 2}
@@ -3597,16 +3597,6 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1000011037064084, guid: 24d03592326d50a419543070dfeb5397, type: 2}
-      propertyPath: m_Name
-      value: BackgroundStuffSpawner
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011061055824, guid: 24d03592326d50a419543070dfeb5397,
-        type: 2}
-      propertyPath: textPrefab
-      value: 
-      objectReference: {fileID: 1000012442998352, guid: 79f7225acaaa9c649b95000641ac087f,
-        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 24d03592326d50a419543070dfeb5397, type: 2}
   m_IsPrefabParent: 0

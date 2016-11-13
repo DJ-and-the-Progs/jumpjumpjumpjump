@@ -14,7 +14,7 @@ public class BackgroundTextSpawner : MonoBehaviour {
         for(int i = 0; i < 256; i++)
         {
             // spawn background text:
-            backgroundTextObjects[i] = Instantiate(textPrefab);
+            backgroundTextObjects[i] = (GameObject)Instantiate(textPrefab, transform);
             banners[i] = backgroundTextObjects[i].GetComponent<Banner>();
 
             // pick a random starting position/direction
