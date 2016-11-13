@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 463c1a61b5b1b494981f4faae3f12773
-timeCreated: 1479017190
+timeCreated: 1479019199
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -250,20 +250,1891 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'Bounce_Idle' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Bind_Joint_Spine_1' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bind_Joint_Spine_2' has
+      translation animation that will be discarded.\n\t'Bind_Joint_Spine_3' has translation
+      animation that will be discarded.\n\t'Bind_Joint_Spine_4' has translation animation
+      that will be discarded.\n\t'Bind_Joint_Spine_4' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bind_Joint_Head_Low'
+      has translation animation that will be discarded.\n\t'Bind_Joint_R_Thumb_1'
+      has translation animation that will be discarded.\n\nClip 'Bounce_FallShort'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Bind_Joint_Spine_1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bind_Joint_Spine_3'
+      has translation animation that will be discarded.\n\t'Bind_Joint_Spine_4' has
+      translation animation that will be discarded.\n\t'Bind_Joint_Spine_4' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Bind_Joint_Head_Low'
+      has translation animation that will be discarded.\n\nClip 'Bounce_Start' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Bind_Joint_Spine_1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bind_Joint_Spine_2'
+      has translation animation that will be discarded.\n\t'Bind_Joint_Spine_3' has
+      translation animation that will be discarded.\n\t'Bind_Joint_Spine_4' has translation
+      animation that will be discarded.\n\t'Bind_Joint_Spine_4' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Bind_Joint_Head_Low'
+      has translation animation that will be discarded.\n\t'Bind_Joint_R_Thumb_1'
+      has translation animation that will be discarded.\n\nClip 'Bounce_FallLong'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Bind_Joint_Spine_1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bind_Joint_Spine_2'
+      has translation animation that will be discarded.\n\t'Bind_Joint_Spine_3' has
+      translation animation that will be discarded.\n\t'Bind_Joint_Spine_4' has translation
+      animation that will be discarded.\n\t'Bind_Joint_Spine_4' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Bind_Joint_Head_Low'
+      has translation animation that will be discarded.\n\nClip 'Bounce_StartClap'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Bind_Joint_Spine_1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bind_Joint_Spine_2'
+      has translation animation that will be discarded.\n\t'Bind_Joint_Spine_3' has
+      translation animation that will be discarded.\n\t'Bind_Joint_Spine_4' has translation
+      animation that will be discarded.\n\t'Bind_Joint_Spine_4' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Bind_Joint_Head_Low'
+      has translation animation that will be discarded.\n\t'Bind_Joint_R_Thumb_1'
+      has translation animation that will be discarded.\n\nClip 'Bounce_FallClap'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Bind_Joint_Spine_1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bind_Joint_Spine_2'
+      has translation animation that will be discarded.\n\t'Bind_Joint_Spine_3' has
+      translation animation that will be discarded.\n\t'Bind_Joint_Spine_4' has translation
+      animation that will be discarded.\n\t'Bind_Joint_Spine_4' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Bind_Joint_Head_Low'
+      has translation animation that will be discarded.\n\t'Bind_Joint_R_Thumb_1'
+      has translation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Base
+      takeName: Base
+      firstFrame: -5
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Joint_Spine_R
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root/Bind_Joint_L_Leg_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root/Bind_Joint_L_Leg_1/Bind_Joint_L_Leg_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root/Bind_Joint_L_Leg_1/Bind_Joint_L_Leg_2/Bind_Joint_L_Leg_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root/Bind_Joint_L_Leg_1/Bind_Joint_L_Leg_2/Bind_Joint_L_Leg_3/Bind_Joint_L_Leg_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root/Bind_Joint_R_Leg_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root/Bind_Joint_R_Leg_1/Bind_Joint_R_Leg_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root/Bind_Joint_R_Leg_1/Bind_Joint_R_Leg_2/Bind_Joint_R_Leg_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root/Bind_Joint_R_Leg_1/Bind_Joint_R_Leg_2/Bind_Joint_R_Leg_3/Bind_Joint_R_Leg_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_1/Bind_Joint_L_Finger_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_1/Bind_Joint_L_Finger_2/Bind_Joint_L_Finger_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_4/Bind_Joint_L_Finger_2
+          1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_4/Bind_Joint_L_Finger_2
+          1/Bind_Joint_L_Finger_3 1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_1/Bind_Joint_L_Index_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_1/Bind_Joint_L_Index_2/Bind_Joint_L_Index_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_4/Bind_Joint_L_Index_2
+          1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_4/Bind_Joint_L_Index_2
+          1/Bind_Joint_L_Index_3 1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Thumb_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Thumb_1/Bind_Joint_L_Thumb_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Thumb_1/Bind_Joint_L_Thumb_2/Bind_Joint_L_Thumb_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_13
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_Neck
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_Neck/Bind_Joint_Head_Low
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_Neck/Bind_Joint_Head_Low/Bind_Joint_Spine_Head_Top
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_1/Bind_Joint_R_Finger_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_1/Bind_Joint_R_Finger_2/Bind_Joint_R_Finger_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_4/Bind_Joint_R_Finger_2
+          1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_4/Bind_Joint_R_Finger_2
+          1/Bind_Joint_R_Finger_3 1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_1/Bind_Joint_R_Index_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_1/Bind_Joint_R_Index_2/Bind_Joint_R_Index_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_4/Bind_Joint_R_Index_2
+          1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_4/Bind_Joint_R_Index_2
+          1/Bind_Joint_R_Index_3 1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Thumb_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Thumb_1/Bind_Joint_R_Thumb_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Thumb_1/Bind_Joint_R_Thumb_2/Bind_Joint_R_Thumb_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_13
+        weight: 1
+      - path: CTRL_Global
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_BallRaise
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_BallRaise/ikHandle1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_ToeRaise
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_ToeRaise/ikHandle2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_ToeRaise/ikHandle3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_BallRaise
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_BallRaise/HeelTwist
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_ToeRaise
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_ToeRaise/BallRoll
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_ToeRaise/ToeTap
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LL_Hip
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LL_Hip/CTRL_LL_1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LL_Hip/CTRL_LL_1/CTRL_LL_2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LL_Hip/CTRL_LL_1/CTRL_LL_2/nurbsCircle1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LR_Hip
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LR_Hip/CTRL_LR_1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LR_Hip/CTRL_LR_1/CTRL_LR_2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LR_Hip/CTRL_LR_1/CTRL_LR_2/nurbsCircle2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/CTRL_Head
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1/group2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1/group2/CTRL_Arm_L_2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1/group2/CTRL_Arm_L_2/group3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1/group2/CTRL_Arm_L_2/group3/CTRL_Arm_L_3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1/group2
+          1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1/group2
+          1/CTRL_Arm_R_2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1/group2
+          1/CTRL_Arm_R_2/group3 1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1/group2
+          1/CTRL_Arm_R_2/group3 1/CTRL_Arm_R_3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/nurbsCircle3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/nurbsCircle4
+        weight: 1
+      - path: Lyric
+        weight: 1
+      - path: Lyric/Lyric_Clothes
+        weight: 1
+      - path: Lyric/Lyric_Head
+        weight: 1
+      - path: Lyric/Scarf
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Bounce_Idle
+      takeName: Bounce_Idle
+      firstFrame: 100
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Joint_Spine_R
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root/Bind_Joint_L_Leg_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root/Bind_Joint_L_Leg_1/Bind_Joint_L_Leg_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root/Bind_Joint_L_Leg_1/Bind_Joint_L_Leg_2/Bind_Joint_L_Leg_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root/Bind_Joint_L_Leg_1/Bind_Joint_L_Leg_2/Bind_Joint_L_Leg_3/Bind_Joint_L_Leg_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root/Bind_Joint_R_Leg_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root/Bind_Joint_R_Leg_1/Bind_Joint_R_Leg_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root/Bind_Joint_R_Leg_1/Bind_Joint_R_Leg_2/Bind_Joint_R_Leg_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root/Bind_Joint_R_Leg_1/Bind_Joint_R_Leg_2/Bind_Joint_R_Leg_3/Bind_Joint_R_Leg_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_1/Bind_Joint_L_Finger_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_1/Bind_Joint_L_Finger_2/Bind_Joint_L_Finger_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_4/Bind_Joint_L_Finger_2
+          1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_4/Bind_Joint_L_Finger_2
+          1/Bind_Joint_L_Finger_3 1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_1/Bind_Joint_L_Index_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_1/Bind_Joint_L_Index_2/Bind_Joint_L_Index_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_4/Bind_Joint_L_Index_2
+          1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_4/Bind_Joint_L_Index_2
+          1/Bind_Joint_L_Index_3 1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Thumb_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Thumb_1/Bind_Joint_L_Thumb_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Thumb_1/Bind_Joint_L_Thumb_2/Bind_Joint_L_Thumb_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_13
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_Neck
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_Neck/Bind_Joint_Head_Low
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_Neck/Bind_Joint_Head_Low/Bind_Joint_Spine_Head_Top
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_1/Bind_Joint_R_Finger_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_1/Bind_Joint_R_Finger_2/Bind_Joint_R_Finger_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_4/Bind_Joint_R_Finger_2
+          1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_4/Bind_Joint_R_Finger_2
+          1/Bind_Joint_R_Finger_3 1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_1/Bind_Joint_R_Index_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_1/Bind_Joint_R_Index_2/Bind_Joint_R_Index_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_4/Bind_Joint_R_Index_2
+          1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_4/Bind_Joint_R_Index_2
+          1/Bind_Joint_R_Index_3 1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Thumb_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Thumb_1/Bind_Joint_R_Thumb_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Thumb_1/Bind_Joint_R_Thumb_2/Bind_Joint_R_Thumb_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_13
+        weight: 1
+      - path: CTRL_Global
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_BallRaise
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_BallRaise/ikHandle1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_ToeRaise
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_ToeRaise/ikHandle2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_ToeRaise/ikHandle3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_BallRaise
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_BallRaise/HeelTwist
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_ToeRaise
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_ToeRaise/BallRoll
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_ToeRaise/ToeTap
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LL_Hip
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LL_Hip/CTRL_LL_1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LL_Hip/CTRL_LL_1/CTRL_LL_2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LL_Hip/CTRL_LL_1/CTRL_LL_2/nurbsCircle1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LR_Hip
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LR_Hip/CTRL_LR_1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LR_Hip/CTRL_LR_1/CTRL_LR_2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LR_Hip/CTRL_LR_1/CTRL_LR_2/nurbsCircle2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/CTRL_Head
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1/group2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1/group2/CTRL_Arm_L_2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1/group2/CTRL_Arm_L_2/group3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1/group2/CTRL_Arm_L_2/group3/CTRL_Arm_L_3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1/group2
+          1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1/group2
+          1/CTRL_Arm_R_2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1/group2
+          1/CTRL_Arm_R_2/group3 1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1/group2
+          1/CTRL_Arm_R_2/group3 1/CTRL_Arm_R_3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/nurbsCircle3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/nurbsCircle4
+        weight: 1
+      - path: Lyric
+        weight: 1
+      - path: Lyric/Lyric_Clothes
+        weight: 1
+      - path: Lyric/Lyric_Head
+        weight: 1
+      - path: Lyric/Scarf
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Bounce_FallShort
+      takeName: Bounce_FallShort
+      firstFrame: 100
+      lastFrame: 111
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Joint_Spine_R
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root/Bind_Joint_L_Leg_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root/Bind_Joint_L_Leg_1/Bind_Joint_L_Leg_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root/Bind_Joint_L_Leg_1/Bind_Joint_L_Leg_2/Bind_Joint_L_Leg_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root/Bind_Joint_L_Leg_1/Bind_Joint_L_Leg_2/Bind_Joint_L_Leg_3/Bind_Joint_L_Leg_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root/Bind_Joint_R_Leg_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root/Bind_Joint_R_Leg_1/Bind_Joint_R_Leg_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root/Bind_Joint_R_Leg_1/Bind_Joint_R_Leg_2/Bind_Joint_R_Leg_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root/Bind_Joint_R_Leg_1/Bind_Joint_R_Leg_2/Bind_Joint_R_Leg_3/Bind_Joint_R_Leg_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_1/Bind_Joint_L_Finger_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_1/Bind_Joint_L_Finger_2/Bind_Joint_L_Finger_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_4/Bind_Joint_L_Finger_2
+          1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_4/Bind_Joint_L_Finger_2
+          1/Bind_Joint_L_Finger_3 1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_1/Bind_Joint_L_Index_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_1/Bind_Joint_L_Index_2/Bind_Joint_L_Index_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_4/Bind_Joint_L_Index_2
+          1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_4/Bind_Joint_L_Index_2
+          1/Bind_Joint_L_Index_3 1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Thumb_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Thumb_1/Bind_Joint_L_Thumb_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Thumb_1/Bind_Joint_L_Thumb_2/Bind_Joint_L_Thumb_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_13
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_Neck
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_Neck/Bind_Joint_Head_Low
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_Neck/Bind_Joint_Head_Low/Bind_Joint_Spine_Head_Top
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_1/Bind_Joint_R_Finger_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_1/Bind_Joint_R_Finger_2/Bind_Joint_R_Finger_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_4/Bind_Joint_R_Finger_2
+          1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_4/Bind_Joint_R_Finger_2
+          1/Bind_Joint_R_Finger_3 1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_1/Bind_Joint_R_Index_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_1/Bind_Joint_R_Index_2/Bind_Joint_R_Index_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_4/Bind_Joint_R_Index_2
+          1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_4/Bind_Joint_R_Index_2
+          1/Bind_Joint_R_Index_3 1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Thumb_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Thumb_1/Bind_Joint_R_Thumb_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Thumb_1/Bind_Joint_R_Thumb_2/Bind_Joint_R_Thumb_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_13
+        weight: 1
+      - path: CTRL_Global
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_BallRaise
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_BallRaise/ikHandle1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_ToeRaise
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_ToeRaise/ikHandle2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_ToeRaise/ikHandle3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_BallRaise
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_BallRaise/HeelTwist
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_ToeRaise
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_ToeRaise/BallRoll
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_ToeRaise/ToeTap
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LL_Hip
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LL_Hip/CTRL_LL_1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LL_Hip/CTRL_LL_1/CTRL_LL_2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LL_Hip/CTRL_LL_1/CTRL_LL_2/nurbsCircle1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LR_Hip
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LR_Hip/CTRL_LR_1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LR_Hip/CTRL_LR_1/CTRL_LR_2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LR_Hip/CTRL_LR_1/CTRL_LR_2/nurbsCircle2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/CTRL_Head
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1/group2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1/group2/CTRL_Arm_L_2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1/group2/CTRL_Arm_L_2/group3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1/group2/CTRL_Arm_L_2/group3/CTRL_Arm_L_3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1/group2
+          1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1/group2
+          1/CTRL_Arm_R_2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1/group2
+          1/CTRL_Arm_R_2/group3 1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1/group2
+          1/CTRL_Arm_R_2/group3 1/CTRL_Arm_R_3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/nurbsCircle3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/nurbsCircle4
+        weight: 1
+      - path: Lyric
+        weight: 1
+      - path: Lyric/Lyric_Clothes
+        weight: 1
+      - path: Lyric/Lyric_Head
+        weight: 1
+      - path: Lyric/Scarf
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Bounce_Start
+      takeName: Bounce_Start
+      firstFrame: 150
+      lastFrame: 165
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Joint_Spine_R
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root/Bind_Joint_L_Leg_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root/Bind_Joint_L_Leg_1/Bind_Joint_L_Leg_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root/Bind_Joint_L_Leg_1/Bind_Joint_L_Leg_2/Bind_Joint_L_Leg_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root/Bind_Joint_L_Leg_1/Bind_Joint_L_Leg_2/Bind_Joint_L_Leg_3/Bind_Joint_L_Leg_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root/Bind_Joint_R_Leg_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root/Bind_Joint_R_Leg_1/Bind_Joint_R_Leg_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root/Bind_Joint_R_Leg_1/Bind_Joint_R_Leg_2/Bind_Joint_R_Leg_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root/Bind_Joint_R_Leg_1/Bind_Joint_R_Leg_2/Bind_Joint_R_Leg_3/Bind_Joint_R_Leg_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_1/Bind_Joint_L_Finger_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_1/Bind_Joint_L_Finger_2/Bind_Joint_L_Finger_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_4/Bind_Joint_L_Finger_2
+          1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_4/Bind_Joint_L_Finger_2
+          1/Bind_Joint_L_Finger_3 1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_1/Bind_Joint_L_Index_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_1/Bind_Joint_L_Index_2/Bind_Joint_L_Index_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_4/Bind_Joint_L_Index_2
+          1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_4/Bind_Joint_L_Index_2
+          1/Bind_Joint_L_Index_3 1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Thumb_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Thumb_1/Bind_Joint_L_Thumb_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Thumb_1/Bind_Joint_L_Thumb_2/Bind_Joint_L_Thumb_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_13
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_Neck
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_Neck/Bind_Joint_Head_Low
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_Neck/Bind_Joint_Head_Low/Bind_Joint_Spine_Head_Top
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_1/Bind_Joint_R_Finger_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_1/Bind_Joint_R_Finger_2/Bind_Joint_R_Finger_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_4/Bind_Joint_R_Finger_2
+          1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_4/Bind_Joint_R_Finger_2
+          1/Bind_Joint_R_Finger_3 1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_1/Bind_Joint_R_Index_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_1/Bind_Joint_R_Index_2/Bind_Joint_R_Index_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_4/Bind_Joint_R_Index_2
+          1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_4/Bind_Joint_R_Index_2
+          1/Bind_Joint_R_Index_3 1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Thumb_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Thumb_1/Bind_Joint_R_Thumb_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Thumb_1/Bind_Joint_R_Thumb_2/Bind_Joint_R_Thumb_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_13
+        weight: 1
+      - path: CTRL_Global
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_BallRaise
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_BallRaise/ikHandle1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_ToeRaise
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_ToeRaise/ikHandle2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_ToeRaise/ikHandle3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_BallRaise
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_BallRaise/HeelTwist
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_ToeRaise
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_ToeRaise/BallRoll
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_ToeRaise/ToeTap
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LL_Hip
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LL_Hip/CTRL_LL_1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LL_Hip/CTRL_LL_1/CTRL_LL_2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LL_Hip/CTRL_LL_1/CTRL_LL_2/nurbsCircle1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LR_Hip
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LR_Hip/CTRL_LR_1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LR_Hip/CTRL_LR_1/CTRL_LR_2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LR_Hip/CTRL_LR_1/CTRL_LR_2/nurbsCircle2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/CTRL_Head
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1/group2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1/group2/CTRL_Arm_L_2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1/group2/CTRL_Arm_L_2/group3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1/group2/CTRL_Arm_L_2/group3/CTRL_Arm_L_3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1/group2
+          1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1/group2
+          1/CTRL_Arm_R_2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1/group2
+          1/CTRL_Arm_R_2/group3 1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1/group2
+          1/CTRL_Arm_R_2/group3 1/CTRL_Arm_R_3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/nurbsCircle3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/nurbsCircle4
+        weight: 1
+      - path: Lyric
+        weight: 1
+      - path: Lyric/Lyric_Clothes
+        weight: 1
+      - path: Lyric/Lyric_Head
+        weight: 1
+      - path: Lyric/Scarf
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Bounce_FallLong
+      takeName: Bounce_FallLong
+      firstFrame: 175
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 10
+      loop: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Joint_Spine_R
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root/Bind_Joint_L_Leg_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root/Bind_Joint_L_Leg_1/Bind_Joint_L_Leg_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root/Bind_Joint_L_Leg_1/Bind_Joint_L_Leg_2/Bind_Joint_L_Leg_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root/Bind_Joint_L_Leg_1/Bind_Joint_L_Leg_2/Bind_Joint_L_Leg_3/Bind_Joint_L_Leg_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root/Bind_Joint_R_Leg_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root/Bind_Joint_R_Leg_1/Bind_Joint_R_Leg_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root/Bind_Joint_R_Leg_1/Bind_Joint_R_Leg_2/Bind_Joint_R_Leg_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root/Bind_Joint_R_Leg_1/Bind_Joint_R_Leg_2/Bind_Joint_R_Leg_3/Bind_Joint_R_Leg_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_1/Bind_Joint_L_Finger_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_1/Bind_Joint_L_Finger_2/Bind_Joint_L_Finger_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_4/Bind_Joint_L_Finger_2
+          1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_4/Bind_Joint_L_Finger_2
+          1/Bind_Joint_L_Finger_3 1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_1/Bind_Joint_L_Index_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_1/Bind_Joint_L_Index_2/Bind_Joint_L_Index_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_4/Bind_Joint_L_Index_2
+          1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_4/Bind_Joint_L_Index_2
+          1/Bind_Joint_L_Index_3 1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Thumb_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Thumb_1/Bind_Joint_L_Thumb_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Thumb_1/Bind_Joint_L_Thumb_2/Bind_Joint_L_Thumb_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_13
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_Neck
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_Neck/Bind_Joint_Head_Low
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_Neck/Bind_Joint_Head_Low/Bind_Joint_Spine_Head_Top
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_1/Bind_Joint_R_Finger_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_1/Bind_Joint_R_Finger_2/Bind_Joint_R_Finger_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_4/Bind_Joint_R_Finger_2
+          1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_4/Bind_Joint_R_Finger_2
+          1/Bind_Joint_R_Finger_3 1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_1/Bind_Joint_R_Index_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_1/Bind_Joint_R_Index_2/Bind_Joint_R_Index_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_4/Bind_Joint_R_Index_2
+          1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_4/Bind_Joint_R_Index_2
+          1/Bind_Joint_R_Index_3 1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Thumb_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Thumb_1/Bind_Joint_R_Thumb_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Thumb_1/Bind_Joint_R_Thumb_2/Bind_Joint_R_Thumb_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_13
+        weight: 1
+      - path: CTRL_Global
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_BallRaise
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_BallRaise/ikHandle1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_ToeRaise
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_ToeRaise/ikHandle2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_ToeRaise/ikHandle3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_BallRaise
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_BallRaise/HeelTwist
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_ToeRaise
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_ToeRaise/BallRoll
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_ToeRaise/ToeTap
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LL_Hip
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LL_Hip/CTRL_LL_1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LL_Hip/CTRL_LL_1/CTRL_LL_2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LL_Hip/CTRL_LL_1/CTRL_LL_2/nurbsCircle1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LR_Hip
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LR_Hip/CTRL_LR_1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LR_Hip/CTRL_LR_1/CTRL_LR_2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LR_Hip/CTRL_LR_1/CTRL_LR_2/nurbsCircle2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/CTRL_Head
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1/group2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1/group2/CTRL_Arm_L_2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1/group2/CTRL_Arm_L_2/group3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1/group2/CTRL_Arm_L_2/group3/CTRL_Arm_L_3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1/group2
+          1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1/group2
+          1/CTRL_Arm_R_2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1/group2
+          1/CTRL_Arm_R_2/group3 1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1/group2
+          1/CTRL_Arm_R_2/group3 1/CTRL_Arm_R_3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/nurbsCircle3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/nurbsCircle4
+        weight: 1
+      - path: Lyric
+        weight: 1
+      - path: Lyric/Lyric_Clothes
+        weight: 1
+      - path: Lyric/Lyric_Head
+        weight: 1
+      - path: Lyric/Scarf
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 175
+    - serializedVersion: 16
+      name: Bounce_StartClap
+      takeName: Bounce_StartClap
+      firstFrame: 220
+      lastFrame: 235
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Joint_Spine_R
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root/Bind_Joint_L_Leg_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root/Bind_Joint_L_Leg_1/Bind_Joint_L_Leg_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root/Bind_Joint_L_Leg_1/Bind_Joint_L_Leg_2/Bind_Joint_L_Leg_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root/Bind_Joint_L_Leg_1/Bind_Joint_L_Leg_2/Bind_Joint_L_Leg_3/Bind_Joint_L_Leg_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root/Bind_Joint_R_Leg_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root/Bind_Joint_R_Leg_1/Bind_Joint_R_Leg_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root/Bind_Joint_R_Leg_1/Bind_Joint_R_Leg_2/Bind_Joint_R_Leg_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root/Bind_Joint_R_Leg_1/Bind_Joint_R_Leg_2/Bind_Joint_R_Leg_3/Bind_Joint_R_Leg_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_1/Bind_Joint_L_Finger_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_1/Bind_Joint_L_Finger_2/Bind_Joint_L_Finger_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_4/Bind_Joint_L_Finger_2
+          1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_4/Bind_Joint_L_Finger_2
+          1/Bind_Joint_L_Finger_3 1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_1/Bind_Joint_L_Index_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_1/Bind_Joint_L_Index_2/Bind_Joint_L_Index_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_4/Bind_Joint_L_Index_2
+          1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_4/Bind_Joint_L_Index_2
+          1/Bind_Joint_L_Index_3 1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Thumb_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Thumb_1/Bind_Joint_L_Thumb_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Thumb_1/Bind_Joint_L_Thumb_2/Bind_Joint_L_Thumb_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_13
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_Neck
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_Neck/Bind_Joint_Head_Low
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_Neck/Bind_Joint_Head_Low/Bind_Joint_Spine_Head_Top
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_1/Bind_Joint_R_Finger_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_1/Bind_Joint_R_Finger_2/Bind_Joint_R_Finger_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_4/Bind_Joint_R_Finger_2
+          1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_4/Bind_Joint_R_Finger_2
+          1/Bind_Joint_R_Finger_3 1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_1/Bind_Joint_R_Index_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_1/Bind_Joint_R_Index_2/Bind_Joint_R_Index_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_4/Bind_Joint_R_Index_2
+          1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_4/Bind_Joint_R_Index_2
+          1/Bind_Joint_R_Index_3 1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Thumb_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Thumb_1/Bind_Joint_R_Thumb_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Thumb_1/Bind_Joint_R_Thumb_2/Bind_Joint_R_Thumb_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_13
+        weight: 1
+      - path: CTRL_Global
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_BallRaise
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_BallRaise/ikHandle1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_ToeRaise
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_ToeRaise/ikHandle2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_ToeRaise/ikHandle3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_BallRaise
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_BallRaise/HeelTwist
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_ToeRaise
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_ToeRaise/BallRoll
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_ToeRaise/ToeTap
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LL_Hip
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LL_Hip/CTRL_LL_1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LL_Hip/CTRL_LL_1/CTRL_LL_2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LL_Hip/CTRL_LL_1/CTRL_LL_2/nurbsCircle1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LR_Hip
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LR_Hip/CTRL_LR_1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LR_Hip/CTRL_LR_1/CTRL_LR_2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LR_Hip/CTRL_LR_1/CTRL_LR_2/nurbsCircle2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/CTRL_Head
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1/group2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1/group2/CTRL_Arm_L_2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1/group2/CTRL_Arm_L_2/group3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1/group2/CTRL_Arm_L_2/group3/CTRL_Arm_L_3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1/group2
+          1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1/group2
+          1/CTRL_Arm_R_2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1/group2
+          1/CTRL_Arm_R_2/group3 1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1/group2
+          1/CTRL_Arm_R_2/group3 1/CTRL_Arm_R_3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/nurbsCircle3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/nurbsCircle4
+        weight: 1
+      - path: Lyric
+        weight: 1
+      - path: Lyric/Lyric_Clothes
+        weight: 1
+      - path: Lyric/Lyric_Head
+        weight: 1
+      - path: Lyric/Scarf
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Bounce_FallClap
+      takeName: Bounce_FallClap
+      firstFrame: 220
+      lastFrame: 250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Joint_Spine_R
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root/Bind_Joint_L_Leg_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root/Bind_Joint_L_Leg_1/Bind_Joint_L_Leg_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root/Bind_Joint_L_Leg_1/Bind_Joint_L_Leg_2/Bind_Joint_L_Leg_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_L_Leg_Root/Bind_Joint_L_Leg_1/Bind_Joint_L_Leg_2/Bind_Joint_L_Leg_3/Bind_Joint_L_Leg_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root/Bind_Joint_R_Leg_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root/Bind_Joint_R_Leg_1/Bind_Joint_R_Leg_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root/Bind_Joint_R_Leg_1/Bind_Joint_R_Leg_2/Bind_Joint_R_Leg_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_R_Leg_Root/Bind_Joint_R_Leg_1/Bind_Joint_R_Leg_2/Bind_Joint_R_Leg_3/Bind_Joint_R_Leg_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_1/Bind_Joint_L_Finger_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_1/Bind_Joint_L_Finger_2/Bind_Joint_L_Finger_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_4/Bind_Joint_L_Finger_2
+          1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Finger_4/Bind_Joint_L_Finger_2
+          1/Bind_Joint_L_Finger_3 1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_1/Bind_Joint_L_Index_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_1/Bind_Joint_L_Index_2/Bind_Joint_L_Index_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_4/Bind_Joint_L_Index_2
+          1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Index_4/Bind_Joint_L_Index_2
+          1/Bind_Joint_L_Index_3 1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Thumb_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Thumb_1/Bind_Joint_L_Thumb_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_3/Bind_Joint_L_Thumb_1/Bind_Joint_L_Thumb_2/Bind_Joint_L_Thumb_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_L_Arm_Clav/Bind_Joint_L_Arm_R/Bind_Joint_L_Arm_2/Bind_Joint_L_Arm_13
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_Neck
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_Neck/Bind_Joint_Head_Low
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_Neck/Bind_Joint_Head_Low/Bind_Joint_Spine_Head_Top
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_1/Bind_Joint_R_Finger_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_1/Bind_Joint_R_Finger_2/Bind_Joint_R_Finger_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_4/Bind_Joint_R_Finger_2
+          1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Finger_4/Bind_Joint_R_Finger_2
+          1/Bind_Joint_R_Finger_3 1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_1/Bind_Joint_R_Index_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_1/Bind_Joint_R_Index_2/Bind_Joint_R_Index_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_4
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_4/Bind_Joint_R_Index_2
+          1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Index_4/Bind_Joint_R_Index_2
+          1/Bind_Joint_R_Index_3 1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Thumb_1
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Thumb_1/Bind_Joint_R_Thumb_2
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_3/Bind_Joint_R_Thumb_1/Bind_Joint_R_Thumb_2/Bind_Joint_R_Thumb_3
+        weight: 1
+      - path: Bind_Joint_Spine_R/Bind_Joint_Spine_1/Bind_Joint_Spine_2/Bind_Joint_Spine_3/Bind_Joint_Spine_4/Bind_Joint_R_Arm_Clav/Bind_Joint_R_Arm_R/Bind_Joint_R_Arm_2/Bind_Joint_R_Arm_13
+        weight: 1
+      - path: CTRL_Global
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_BallRaise
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_BallRaise/ikHandle1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_ToeRaise
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_ToeRaise/ikHandle2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FL/ZeroGRP_LF_IK/LFTIK/LFT_ToeTwist/LFT_ToeRaise/ikHandle3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_BallRaise
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_BallRaise/HeelTwist
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_ToeRaise
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_ToeRaise/BallRoll
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_IK_FR/ZeroGRP_RF_IK/RFTIK/RFT_ToeTwist/RFT_ToeRaise/ToeTap
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LL_Hip
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LL_Hip/CTRL_LL_1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LL_Hip/CTRL_LL_1/CTRL_LL_2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LL_Hip/CTRL_LL_1/CTRL_LL_2/nurbsCircle1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LR_Hip
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LR_Hip/CTRL_LR_1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LR_Hip/CTRL_LR_1/CTRL_LR_2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_Hips/CTRL_LR_Hip/CTRL_LR_1/CTRL_LR_2/nurbsCircle2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/CTRL_Head
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1/group2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1/group2/CTRL_Arm_L_2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1/group2/CTRL_Arm_L_2/group3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group1/CTRL_Arm_L_1/group2/CTRL_Arm_L_2/group3/CTRL_Arm_L_3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1/group2
+          1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1/group2
+          1/CTRL_Arm_R_2
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1/group2
+          1/CTRL_Arm_R_2/group3 1
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/CTRL_Root/CTRL_waistPivot/CTRL_Chest/group4/CTRL_Arm_R_1/group2
+          1/CTRL_Arm_R_2/group3 1/CTRL_Arm_R_3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/nurbsCircle3
+        weight: 1
+      - path: CTRL_Global/CTRL_Flip/nurbsCircle4
+        weight: 1
+      - path: Lyric
+        weight: 1
+      - path: Lyric/Lyric_Clothes
+        weight: 1
+      - path: Lyric/Lyric_Head
+        weight: 1
+      - path: Lyric/Scarf
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 6.8
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -285,8 +2156,966 @@ ModelImporter:
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    human: []
-    skeleton: []
+    human:
+    - boneName: Bind_Joint_Spine_R
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_Spine_2
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_Spine_3
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_Head_Low
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_L_Arm_Clav
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_R_Arm_Clav
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_L_Arm_R
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_R_Arm_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_L_Arm_2
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_R_Arm_2
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_L_Arm_3
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_R_Arm_3
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_L_Thumb_1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_L_Thumb_2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_L_Thumb_3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_L_Index_4
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_L_Index_2 1
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_L_Index_3 1
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_L_Finger_1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_L_Finger_2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_L_Finger_3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_L_Finger_4
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_L_Finger_2 1
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_L_Finger_3 1
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_R_Thumb_1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_R_Thumb_2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_R_Thumb_3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_R_Index_4
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_R_Index_2 1
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_R_Index_3 1
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_R_Finger_1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_R_Finger_2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_R_Finger_3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_R_Finger_4
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_R_Finger_2 1
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_R_Finger_3 1
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_R_Leg_Root
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_R_Leg_1
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_R_Leg_2
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_R_Leg_3
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_L_Leg_Root
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_L_Leg_1
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_L_Leg_2
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_L_Leg_3
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_R_Index_1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_R_Index_2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_R_Index_3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_L_Index_1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_L_Index_2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bind_Joint_L_Index_3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Lyric_GameReadyNew(Clone)
+      position: {x: 0, y: 0, z: 0.05}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_Spine_R
+      position: {x: 0.00016022737, y: 1.1092249, z: -0.0135199735}
+      rotation: {x: 0.5333241, y: -0.46429026, z: -0.5333241, w: 0.46429026}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_L_Leg_Root
+      position: {x: 0.063248776, y: 0.006683015, z: 0.09763174}
+      rotation: {x: -0.0049163355, y: 0.0033349423, z: 0.995148, w: -0.098209895}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_L_Leg_1
+      position: {x: -0.36178094, y: -2.3403502e-16, z: 1.5099034e-17}
+      rotation: {x: 0.00064696814, y: -0.0000051142224, z: -0.06645319, w: 0.9977893}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_L_Leg_2
+      position: {x: -0.5477081, y: 1.3589131e-16, z: 1.2079227e-16}
+      rotation: {x: -0.006261226, y: -0.0016341791, z: 0.442316, w: 0.8968359}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_L_Leg_3
+      position: {x: -0.1592573, y: 1.2079227e-16, z: -1.3589131e-16}
+      rotation: {x: -0.00048695062, y: -0.0012765347, z: 0.3564106, w: 0.93432844}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_L_Leg_4
+      position: {x: -0.13210471, y: 1.5099034e-17, z: -1.5099035e-16}
+      rotation: {x: 0.7071068, y: 4.3297806e-17, z: -0.7071068, w: 4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_R_Leg_Root
+      position: {x: 0.06325071, y: 0.0066832607, z: -0.09763194}
+      rotation: {x: -0.00058522157, y: 0.004844731, z: 0.09822961, w: 0.9951518}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_R_Leg_1
+      position: {x: 0.36177936, y: 0.000000118444085, z: 0.000000101282374}
+      rotation: {x: 0.00064696826, y: -0.000005112025, z: -0.06645319, w: 0.9977893}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_R_Leg_2
+      position: {x: 0.547708, y: -0.000000038904975, z: 0.00000009871311}
+      rotation: {x: -0.0026580435, y: -0.003180102, z: 0.44230738, w: 0.8968539}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_R_Leg_3
+      position: {x: 0.15925726, y: 0.00000024449125, z: -0.000000027657281}
+      rotation: {x: -0.00048695906, y: -0.0012765296, z: 0.3564106, w: 0.93432844}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_R_Leg_4
+      position: {x: 0.13210429, y: 4.2206388e-11, z: -0.0000000017629784}
+      rotation: {x: 0.7071068, y: 4.3297806e-17, z: -0.7071068, w: 4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_Spine_1
+      position: {x: -0.048635297, y: -3.0198068e-17, z: -5.5441764e-18}
+      rotation: {x: 0, y: 0, z: 0.007989315, w: 0.9999681}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_Spine_2
+      position: {x: -0.07700522, y: -2.7178262e-16, z: -4.0873558e-17}
+      rotation: {x: 0, y: 0, z: 0.053030383, w: 0.9985929}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_Spine_3
+      position: {x: -0.06482952, y: -3.548273e-16, z: -3.529989e-17}
+      rotation: {x: 0, y: 0, z: 0.10967292, w: 0.9939678}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_Spine_4
+      position: {x: -0.18811086, y: -1.1173285e-15, z: -1.1162078e-16}
+      rotation: {x: 0, y: 0, z: 0.08225752, w: 0.9966111}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_L_Arm_Clav
+      position: {x: -0.039156668, y: -0.009304118, z: 0.086603776}
+      rotation: {x: -0.34461254, y: 0.49583274, z: 0.4549241, w: 0.6545504}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_L_Arm_R
+      position: {x: -0.07762817, y: 2.4158454e-16, z: -8.681945e-17}
+      rotation: {x: 0.006080481, y: 0.097486265, z: -0.0010848938, w: 0.99521774}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_L_Arm_2
+      position: {x: -0.2276752, y: 2.4158454e-16, z: -8.3044685e-17}
+      rotation: {x: 0.99746126, y: 4.3604255e-18, z: -0.07121115, w: 6.1076886e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_L_Arm_3
+      position: {x: -0.21174204, y: 0, z: 3.019807e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_L_Finger_1
+      position: {x: -0.13145159, y: 0.0017163899, z: 0.020745989}
+      rotation: {x: -0.0054519963, y: 0.031334747, z: -0.17132999, w: 0.9847002}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_L_Finger_2
+      position: {x: -0.028010588, y: -4.3183477e-18, z: 4.076662e-17}
+      rotation: {x: 0, y: -0, z: -0.10374468, w: 0.994604}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_L_Finger_3
+      position: {x: -0.035483632, y: -4.831691e-16, z: 1.5099034e-17}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_L_Finger_4
+      position: {x: -0.12973222, y: 0.008259512, z: 0.047734298}
+      rotation: {x: -0.00571834, y: 0.03128724, z: -0.1796999, w: 0.9832072}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_L_Finger_2 1
+      position: {x: -0.02071026, y: -4.3183477e-18, z: 5.5865654e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_L_Finger_3 1
+      position: {x: -0.019387262, y: -2.4158454e-16, z: 4.5297102e-17}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_L_Index_1
+      position: {x: -0.1343757, y: 0.00918906, z: -0.03521179}
+      rotation: {x: -0.0043806685, y: 0.031502385, z: -0.13766332, w: 0.9899683}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_L_Index_2
+      position: {x: -0.033739477, y: -2.0997157e-18, z: 4.7759387e-17}
+      rotation: {x: 0, y: -0, z: -0.114111274, w: 0.993468}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_L_Index_3
+      position: {x: -0.030450946, y: -2.4158454e-16, z: 4.8613556e-32}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_L_Index_4
+      position: {x: -0.133444, y: 0.00026380745, z: -0.0062610875}
+      rotation: {x: -0.0025295524, y: 0.031704765, z: -0.07949165, w: 0.99632806}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_L_Index_2 1
+      position: {x: -0.04003862, y: -2.4368426e-16, z: 4.7759387e-17}
+      rotation: {x: 0, y: -0, z: -0.19332662, w: 0.9811345}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_L_Index_3 1
+      position: {x: -0.037868615, y: -2.4158454e-16, z: 4.8613556e-32}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_L_Thumb_1
+      position: {x: -0.06517099, y: 0.012703864, z: -0.06093184}
+      rotation: {x: 0.64627874, y: -0.33695784, z: 0.094515674, w: 0.67812246}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_L_Thumb_2
+      position: {x: -0.02017045, y: 5.4928273e-17, z: -8.026741e-17}
+      rotation: {x: 0, y: -0, z: -0.32217985, w: 0.9466785}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_L_Thumb_3
+      position: {x: -0.024056645, y: -1.1988449e-16, z: 1.5429695e-31}
+      rotation: {x: 0.60035074, y: -0.37360272, z: -0.37360272, w: 0.60035074}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_L_Arm_13
+      position: {x: -0.06123258, y: 0.00026380745, z: -0.0000027044725}
+      rotation: {x: 0.9994941, y: -1.947526e-18, z: -0.03180551, w: -6.120136e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_Neck
+      position: {x: -0.104106136, y: -5.4356524e-16, z: -5.8007424e-17}
+      rotation: {x: 0, y: -0, z: -0.22600959, w: 0.9741251}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_Head_Low
+      position: {x: -0.05991505, y: 1.781686e-15, z: 1.2913802e-16}
+      rotation: {x: -1.0465362e-16, y: 1.7065526e-16, z: -0.05481748, w: 0.9984964}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_Spine_Head_Top
+      position: {x: -0.27186802, y: 4.5297102e-17, z: -5.734641e-17}
+      rotation: {x: 0.54680234, y: -0.44833827, z: -0.54680234, w: -0.44833827}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_R_Arm_Clav
+      position: {x: -0.039154176, y: -0.009305043, z: -0.0866037}
+      rotation: {x: -0.49583277, y: -0.3446125, z: 0.65455043, w: -0.45492408}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_R_Arm_R
+      position: {x: 0.077628024, y: -0.0000012577958, z: -0.00000026956823}
+      rotation: {x: 0.006080481, y: 0.097486265, z: -0.0010848938, w: 0.99521774}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_R_Arm_2
+      position: {x: 0.22767502, y: 0, z: 0.00000022262574}
+      rotation: {x: 0.99746126, y: 7.7836485e-17, z: -0.07121115, w: -5.520865e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_R_Arm_3
+      position: {x: 0.21174246, y: -2.65743e-15, z: -0.00000038057757}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_R_Finger_1
+      position: {x: 0.13145313, y: -0.0017177826, z: -0.02074569}
+      rotation: {x: -0.0054519963, y: 0.031334747, z: -0.17132999, w: 0.9847002}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_R_Finger_2
+      position: {x: 0.028009202, y: 2.4158454e-16, z: -1.5099034e-17}
+      rotation: {x: 0, y: -0, z: -0.10374468, w: 0.994604}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_R_Finger_3
+      position: {x: 0.0354824, y: -2.4158454e-16, z: 1.5099034e-17}
+      rotation: {x: 1, y: -1.06110345e-16, z: -7.077672e-16, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_R_Finger_4
+      position: {x: 0.12973377, y: -0.008260904, z: -0.0477339}
+      rotation: {x: -0.00571834, y: 0.03128724, z: -0.1796999, w: 0.9832072}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_R_Finger_2 1
+      position: {x: 0.020706002, y: 2.4158454e-16, z: 1.5099034e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_R_Finger_3 1
+      position: {x: 0.019386802, y: -4.831691e-16, z: 1.5099034e-17}
+      rotation: {x: 1, y: -1.06110345e-16, z: -7.077672e-16, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_R_Index_1
+      position: {x: 0.13437757, y: -0.009190452, z: 0.03521189}
+      rotation: {x: -0.0043806685, y: 0.031502385, z: -0.13766332, w: 0.9899683}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_R_Index_2
+      position: {x: 0.033734802, y: 2.4158454e-16, z: -5.2846617e-17}
+      rotation: {x: 0, y: -0, z: -0.114111274, w: 0.993468}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_R_Index_3
+      position: {x: 0.030450402, y: -2.4158454e-16, z: -3.0198068e-17}
+      rotation: {x: 1, y: -1.06110345e-16, z: -7.077672e-16, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_R_Index_4
+      position: {x: 0.13344623, y: -0.0002652, z: 0.0062611913}
+      rotation: {x: -0.0025295524, y: 0.031704765, z: -0.07949165, w: 0.99632806}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_R_Index_2 1
+      position: {x: 0.040038403, y: 2.4158454e-16, z: -4.5297102e-17}
+      rotation: {x: 0, y: -0, z: -0.19332662, w: 0.9811345}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_R_Index_3 1
+      position: {x: 0.037869204, y: -2.4158454e-16, z: -4.5297102e-17}
+      rotation: {x: 1, y: -1.06110345e-16, z: -7.077672e-16, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_R_Thumb_1
+      position: {x: 0.06517117, y: -0.01270438, z: 0.06093208}
+      rotation: {x: 0.64627874, y: -0.33695784, z: 0.094515674, w: 0.67812246}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_R_Thumb_2
+      position: {x: 0.020170357, y: 0.000000204816, z: 1.6910918e-15}
+      rotation: {x: 0.00000001244047, y: 0.0000000034304795, z: -0.32217985, w: 0.9466785}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_R_Thumb_3
+      position: {x: 0.02405677, y: -0.00000021099247, z: 7.730705e-15}
+      rotation: {x: 0.60035074, y: -0.37360275, z: -0.37360272, w: 0.60035074}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_Joint_R_Arm_13
+      position: {x: 0.061232932, y: -0.0002652, z: 0.0000026064008}
+      rotation: {x: 0.9994941, y: -5.508336e-17, z: -0.03180551, w: -6.289223e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: CTRL_Global
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: CTRL_Flip
+      position: {x: 0.00016022737, y: 1.1092249, z: -0.0135199735}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: CTRL_IK_FL
+      position: {x: -0.10648487, y: -0.9708759, z: -0.021620836}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ZeroGRP_LF_IK
+      position: {x: 1.2079227e-16, y: 9.0594204e-17, z: -1.5853986e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LFTIK
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LFT_ToeTwist
+      position: {x: -0.00043517243, y: -0.1060666, z: 0.25090104}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LFT_BallRaise
+      position: {x: 2.5668357e-16, y: 1.5933256e-14, z: -0.13210471}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ikHandle1
+      position: {x: 0.00043517497, y: 0.1060666, z: -0.11879633}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LFT_ToeRaise
+      position: {x: 2.5668357e-16, y: 1.5933256e-14, z: -0.13210471}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ikHandle2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ikHandle3
+      position: {x: -0, y: 0, z: 0.13210471}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: CTRL_IK_FR
+      position: {x: 0.10648486, y: -0.9708761, z: -0.021620866}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ZeroGRP_RF_IK
+      position: {x: 0.0000000018685213, y: 1.8232024e-11, z: -5.2167163e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RFTIK
+      position: {x: 5.4372956e-10, y: 5.305438e-12, z: -1.4344083e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RFT_ToeTwist
+      position: {x: -0.016116414, y: -0.1141606, z: 0.25007835}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RFT_BallRaise
+      position: {x: 0.01655161, y: 0.008094186, z: -0.13128187}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: HeelTwist
+      position: {x: -0.0004351993, y: 0.1060664, z: -0.118796475}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RFT_ToeRaise
+      position: {x: 0.01655161, y: 0.008094186, z: -0.13128187}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BallRoll
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ToeTap
+      position: {x: -0.000000008106232, y: 0, z: 0.13210429}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: CTRL_Root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: CTRL_Hips
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: CTRL_LL_Hip
+      position: {x: -0.09763174, y: -0.06356644, z: -0.002092464}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: CTRL_LL_1
+      position: {x: -0.0035238771, y: -0.3611428, z: 0.021187313}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: CTRL_LL_2
+      position: {x: -0.0053292606, y: -0.54616666, z: -0.040715687}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: nurbsCircle1
+      position: {x: -0.00043517243, y: -0.1060666, z: 0.11879633}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: CTRL_LR_Hip
+      position: {x: 0.09763194, y: -0.06356839, z: -0.0020924874}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: CTRL_LR_1
+      position: {x: 0.00352376, y: -0.36114123, z: 0.02118734}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: CTRL_LR_2
+      position: {x: 0.005329163, y: -0.54616654, z: -0.040715717}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: nurbsCircle2
+      position: {x: 0.0004351976, y: -0.106066406, z: 0.11879648}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: CTRL_waistPivot
+      position: {x: 1.076396e-17, y: 0.18942387, z: 0.017128438}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: CTRL_Chest
+      position: {x: 1.9168695e-17, y: 0.18422163, z: -0.038053676}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: CTRL_Head
+      position: {x: 1.38014605e-17, y: 0.1568066, z: -0.032251786}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: group1
+      position: {x: -0.16133176, y: 0.03291913, z: -0.04379999}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: CTRL_Arm_L_1
+      position: {x: 6.039614e-16, y: 0, z: -3.0198068e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: group2
+      position: {x: -2.4158454e-16, y: -0.22696653, z: -0.017949753}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: CTRL_Arm_L_2
+      position: {x: -0, y: 0, z: -3.0198068e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: group3
+      position: {x: -2.65743e-15, y: -0.21131366, z: 0.013462314}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: CTRL_Arm_L_3
+      position: {x: -0, y: 0, z: -3.0198068e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: group4
+      position: {x: 0.16133162, y: 0.03291913, z: -0.04379999}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: -1, z: 1}
+      transformModified: 1
+    - name: CTRL_Arm_R_1
+      position: {x: 9.0594204e-17, y: 2.4158454e-16, z: -4.5297102e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: group2 1
+      position: {x: 2.4158454e-16, y: -0.22696653, z: -0.017949753}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: CTRL_Arm_R_2
+      position: {x: -0, y: 0, z: -3.0198068e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: group3 1
+      position: {x: -2.1440627e-15, y: -0.21131366, z: 0.013462314}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: CTRL_Arm_R_3
+      position: {x: -2.4158454e-16, y: 0, z: -3.0198068e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: nurbsCircle3
+      position: {x: -0.09564388, y: -0.40937057, z: 0.69352}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: nurbsCircle4
+      position: {x: 0.1011557, y: -0.40937057, z: 0.69352}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Lyric
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Lyric_Clothes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Lyric_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Scarf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -297,7 +3126,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
