@@ -1594,6 +1594,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreKeeper: {fileID: 0}
+  revealed: 1
   scoreBox: {fileID: 1929614714}
   timeToCount: 3.5
 --- !u!95 &1377172542
@@ -1863,7 +1864,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxScore: 10000
   starScores: e8030000d0070000b80b0000
-  nextLevel: main menu
+  nextLevel: MainNew
 --- !u!82 &1534048946
 AudioSource:
   m_ObjectHideFlags: 0

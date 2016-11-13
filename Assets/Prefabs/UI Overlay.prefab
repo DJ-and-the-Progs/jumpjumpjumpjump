@@ -1568,6 +1568,22 @@ MonoBehaviour:
   ScoreText1: {fileID: 114000013170709840}
   ScoreText2: {fileID: 114000012512739880}
   comboText: {fileID: 1000010059714932, guid: e296165292f272a479c90bf0bd3d3585, type: 2}
+  volumeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0.50071734
+      inSlope: 1.0070364
+      outSlope: 1.0070364
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!114 &114000013860254998
 MonoBehaviour:
   m_ObjectHideFlags: 1

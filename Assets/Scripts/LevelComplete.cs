@@ -8,7 +8,7 @@ public class LevelComplete : MonoBehaviour {
     private GameObject scoreKeeper;
 
     private Animator anim;
-    private bool revealed = false;
+    public bool revealed = false; //public for quick dmeo   
     private int score;
     private int displayScore;
 
@@ -30,6 +30,10 @@ public class LevelComplete : MonoBehaviour {
     void Update() {
         if (revealed)
         {
+
+            if (Input.GetAxisRaw("Enter") > 0) OnNextLevelClicked();
+            if (Input.GetAxisRaw("Cancel") > 0) OnMenuClicked();
+
             int lastDisplay = displayScore;
             if (displayScore < score)
             {
@@ -46,9 +50,6 @@ public class LevelComplete : MonoBehaviour {
             }
 
             scoreBox.text = "Score: " + ("" + displayScore).PadLeft(5, '0');
-
-            if (Input.GetAxisRaw("Enter") > 0) OnNextLevelClicked();
-            if (Input.GetAxisRaw("Cancel") > 0) OnMenuClicked();
 
         }
     }

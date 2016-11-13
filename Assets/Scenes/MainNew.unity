@@ -246,7 +246,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: JUMP WHAT JUMP
+  m_Text: LYRA
 --- !u!222 &313602159
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1277,7 +1277,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 323c4b4dcb3fb1f42a9c11b93df34832, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.111
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1551,7 +1551,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: JUMP WHAT JUMP
+  m_Text: LYRA
 --- !u!222 &1523043110
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1999,7 +1999,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1977282062}
   m_LocalRotation: {x: 0.000000014901163, y: -0.4778049, z: 0.0664709, w: 0.8759476}
-  m_LocalPosition: {x: 0, y: 0, z: -128}
+  m_LocalPosition: {x: 0, y: 0, z: -141}
   m_LocalScale: {x: 1.6660554, y: 1.6660558, z: 1.6660558}
   m_LocalEulerAnglesHint: {x: 3.6080003, y: -56.870003, z: 6.5160003}
   m_Children:
@@ -2009,7 +2009,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -448, y: -48}
+  m_AnchoredPosition: {x: -448, y: 43}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!111 &1977282064

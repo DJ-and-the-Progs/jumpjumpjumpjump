@@ -20,4 +20,5 @@ public class LevelInfo : MonoBehaviour {
     {
         return  GameObject.FindGameObjectWithTag("World").GetComponent<LevelInfo>();
     }
+
 }
