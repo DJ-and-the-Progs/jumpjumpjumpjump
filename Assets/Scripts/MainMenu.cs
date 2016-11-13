@@ -10,8 +10,9 @@ public class MainMenu : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
-	}
+        if (Input.GetAxisRaw("Enter") > 0) OnPlayButtonClicked();
+        if (Input.GetAxisRaw("Cancel") > 0) OnQuitButtonClicked();
+    }
 
     // Buttons called by the buttons themselves
 

@@ -47,6 +47,9 @@ public class LevelComplete : MonoBehaviour {
 
             scoreBox.text = "Score: " + ("" + displayScore).PadLeft(5, '0');
 
+            if (Input.GetAxisRaw("Enter") > 0) OnNextLevelClicked();
+            if (Input.GetAxisRaw("Cancel") > 0) OnMenuClicked();
+
         }
     }
 
