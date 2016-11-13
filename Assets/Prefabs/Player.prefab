@@ -641,7 +641,6 @@ GameObject:
   - 114: {fileID: 114000011179098942}
   - 114: {fileID: 114000010901901490}
   - 114: {fileID: 114000012656348460}
-  - 95: {fileID: 95000011582021698}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -1535,6 +1534,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1000013925890582
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000013739870716}
+  - 95: {fileID: 95000013709333970}
+  m_Layer: 8
+  m_Name: LyricContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1000013945225756
 GameObject:
   m_ObjectHideFlags: 1
@@ -1582,7 +1597,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &1000014060421548
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -2538,7 +2553,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000014060421548}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: -1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
@@ -2546,7 +2561,7 @@ Transform:
   - {fileID: 4000013256587530}
   - {fileID: 4000011794288672}
   - {fileID: 4000014273597146}
-  m_Father: {fileID: 4000013560443508}
+  m_Father: {fileID: 4000013739870716}
   m_RootOrder: 0
 --- !u!4 &4000012243260174
 Transform:
@@ -3049,11 +3064,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011747371574}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: -11.85, y: 14.28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 4000012230805682}
+  - {fileID: 4000013739870716}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &4000013593158576
@@ -3082,6 +3097,20 @@ Transform:
   m_Children:
   - {fileID: 4000010005408760}
   m_Father: {fileID: 4000011252041648}
+  m_RootOrder: 0
+--- !u!4 &4000013739870716
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013925890582}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 4000012230805682}
+  m_Father: {fileID: 4000013560443508}
   m_RootOrder: 0
 --- !u!4 &4000013748307810
 Transform:
@@ -3271,13 +3300,13 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!95 &95000011582021698
+--- !u!95 &95000013709333970
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000011747371574}
+  m_GameObject: {fileID: 1000013925890582}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 285de5cfb054db043aabd9e3ea1ddb2a, type: 2}
@@ -3346,7 +3375,9 @@ MonoBehaviour:
   floorLookDistance: 1.01
   spherecastRadius: 0.4
   maxCurveTime: 0.5
+  rotationSpeed: 10
   staringVelocity: 11.35
+  lyricAnimator: {fileID: 95000013709333970}
 --- !u!114 &114000012656348460
 MonoBehaviour:
   m_ObjectHideFlags: 1
