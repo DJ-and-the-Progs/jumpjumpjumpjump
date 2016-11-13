@@ -19,7 +19,13 @@ public class HandleDeath : MonoBehaviour {
         if (hitsUntilDeath <= 0)
         {
             // GameOver
-            Destroy(this.GetComponent<PlayerMovement>());
+            PlayerMovement pm = GetComponent<PlayerMovement>();
+            pm.Dead = true;
+            Destroy(pm);
+            Rigidbody rb = pm.GetComponent<Rigidbody>();
+            rb.useGravity = true;
+            rb.velocity = Vector3.down * 19;
+            
             GameObject.FindGameObjectWithTag("GameOver").SendMessage("Reveal");
         }
     }
