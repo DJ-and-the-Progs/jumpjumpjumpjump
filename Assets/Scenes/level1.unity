@@ -1533,12 +1533,12 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: f259db78c1349cb40af3cded80e7fb2e, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.111
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
-  Priority: 128
+  Priority: 256
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -1638,11 +1638,6 @@ Prefab:
     - target: {fileID: 1000011324636514, guid: 51f34108d6e38fb4bb18af318965cefb, type: 2}
       propertyPath: m_Name
       value: Crate
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000010488610238, guid: 51f34108d6e38fb4bb18af318965cefb,
-        type: 2}
-      propertyPath: hits
-      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 51f34108d6e38fb4bb18af318965cefb, type: 2}
@@ -1874,6 +1869,31 @@ Prefab:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 2118262561}
+    - target: {fileID: 114000013732220262, guid: cb43706faeb9aa547a06f87393f8b2f7,
+        type: 2}
+      propertyPath: volumeCurve.m_Curve.Array.data[1].time
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013732220262, guid: cb43706faeb9aa547a06f87393f8b2f7,
+        type: 2}
+      propertyPath: volumeCurve.m_Curve.Array.data[0].inSlope
+      value: 0.1034312
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013732220262, guid: cb43706faeb9aa547a06f87393f8b2f7,
+        type: 2}
+      propertyPath: volumeCurve.m_Curve.Array.data[0].outSlope
+      value: 0.1034312
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013732220262, guid: cb43706faeb9aa547a06f87393f8b2f7,
+        type: 2}
+      propertyPath: volumeCurve.m_Curve.Array.data[0].time
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013732220262, guid: cb43706faeb9aa547a06f87393f8b2f7,
+        type: 2}
+      propertyPath: volumeCurve.m_Curve.Array.data[0].value
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cb43706faeb9aa547a06f87393f8b2f7, type: 2}
   m_IsPrefabParent: 0
