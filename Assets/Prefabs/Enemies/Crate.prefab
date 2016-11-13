@@ -86,6 +86,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 2100000, guid: c337db4addf9b484c817f63753651bbc, type: 2}
+  - {fileID: 2100000, guid: 00b2cd4d38c4fad46b2094fe52f29b72, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -126,6 +127,7 @@ MonoBehaviour:
   hitScore: 50
   killScore: 100
   debugScaleOnHit: 1
+  animator: {fileID: 0}
 --- !u!135 &135000012278886840
 SphereCollider:
   m_ObjectHideFlags: 1
