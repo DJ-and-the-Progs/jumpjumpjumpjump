@@ -26,6 +26,8 @@ public class Enemy : MonoBehaviour {
     [SerializeField]
     protected Animator animator;
 
+    private bool shrinking = false;
+
 
     [SerializeField]
     private SkinnedMeshRenderer skin;
@@ -37,7 +39,7 @@ public class Enemy : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         maxHits = hits;
-        if (skin)
+        if (skin && hits < colors.Length)
         {
             skin.materials[4].color = colors[hits];
             skin.materials[5].color = colors[hits];
@@ -48,7 +50,10 @@ public class Enemy : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+	    if (shrinking)
+        {
+            this.transform.localScale *= 0.85f;
+        }
 	}
 
     protected virtual void Die()
@@ -69,7 +74,11 @@ public class Enemy : MonoBehaviour {
                 scoreCounter.NotifyLastHit(this.transform.position + Vector3.up * 0.8f);
                 scoreCounter.AddScore(this.killScore);
             }
-            if (this.animator) this.animator.SetTrigger("killed");
+            if (this.animator)
+            {
+                this.animator.SetTrigger("killed");
+                this.shrinking = true;
+            }
             this.Die();
         }
         else
@@ -86,12 +95,12 @@ public class Enemy : MonoBehaviour {
         shockWave.transform.position = this.transform.position;
 
         // Change color of tv
-        if (skin)
+        if (skin && hits < colors.Length)
         {
             skin.materials[4].color = colors[hits];
             skin.materials[5].color = colors[hits];
         }
 
-		AudioSource.PlayClipAtPoint(this.audioClip, this.transform.position);
+		AudioSource.PlayClipAtPoint(this.audioClip, this.transform.position, scoreCounter.GetVolume());
 	}
 }

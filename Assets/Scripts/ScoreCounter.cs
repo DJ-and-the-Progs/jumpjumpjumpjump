@@ -18,6 +18,10 @@ public class ScoreCounter : MonoBehaviour {
     private float timer = 0;
     private int combo = 0;
 
+
+    [SerializeField]
+    private AnimationCurve volumeCurve;
+
 	// Update is called once per frame
 	void Update ()
     {
@@ -68,5 +72,10 @@ public class ScoreCounter : MonoBehaviour {
     public void NotifyDamage(Vector3 position)
     {
         combo = 0;
+    }
+
+    public float GetVolume()
+    {
+        return volumeCurve.Evaluate(this.combo);
     }
 }
