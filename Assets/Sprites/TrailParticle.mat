@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: TrailMaterial
-  m_Shader: {fileID: 10751, guid: 0000000000000000f000000000000000, type: 0}
+  m_Name: TrailParticle
+  m_Shader: {fileID: 202, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 1
   m_CustomRenderQueue: -1
@@ -48,7 +48,7 @@ Material:
     - first:
         name: _MainTex
       second:
-        m_Texture: {fileID: 2800000, guid: 213c0b1a5d52fca4c96845cd58616861, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5f78a0c6c42c66445838d1518c1380db, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
@@ -90,6 +90,9 @@ Material:
       second: 0.5
     - first:
         name: _GlossyReflections
+      second: 1
+    - first:
+        name: _InvFade
       second: 1
     - first:
         name: _Metallic
