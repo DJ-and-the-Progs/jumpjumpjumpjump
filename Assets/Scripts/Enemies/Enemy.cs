@@ -37,6 +37,8 @@ public class Enemy : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         maxHits = hits;
+        skin.materials[4].color = colors[hits];
+        skin.materials[5].color = colors[hits];
 
         scoreCounter = GameObject.FindGameObjectWithTag("ScoreKeeper").GetComponent<ScoreCounter>();
 	}
