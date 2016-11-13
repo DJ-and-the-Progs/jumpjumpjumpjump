@@ -748,7 +748,7 @@ Animator:
   m_GameObject: {fileID: 1000014079071736}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 2240ec0490abd9a43aa3198831a42036, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: edc5ba7ad14d34b4c875a70bede0cb82, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -770,10 +770,10 @@ MonoBehaviour:
   audioClip: {fileID: 8300000, guid: f3ba008d57b452c4fa0a906cbdf20ee5, type: 3}
   particleEffect: {fileID: 1000011567781092, guid: 568ece5761b551b4ca18cd0007de675f,
     type: 2}
-  hits: 1
+  hits: 3
   hitScore: 50
   killScore: 100
-  animator: {fileID: 0}
+  animator: {fileID: 95000010927632152}
   skin: {fileID: 137000010044325732}
   colors:
   - {r: 0.5019608, g: 0, b: 1, a: 1}

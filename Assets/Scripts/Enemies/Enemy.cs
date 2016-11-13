@@ -76,7 +76,7 @@ public class Enemy : MonoBehaviour {
                 scoreCounter.NotifyDamage(this.transform.position + Vector3.up * 0.8f);
                 scoreCounter.AddScore(this.hitScore);
             }
-            if (this.animator) this.animator.SetTrigger("hit");
+            if (this.animator) this.animator.SetTrigger("hurt");
         }
 
         GameObject shockWave = Instantiate(particleEffect);
