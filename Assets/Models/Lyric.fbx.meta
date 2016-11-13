@@ -16,6 +16,114 @@ ModelImporter:
     100016: Speaker_Boots
     100018: Speaker_Shoulders
     100020: SpeakersHips
+    100022: BallRoll
+    100024: Bind_Joint_Head_Low
+    100026: Bind_Joint_L_Arm_13
+    100028: Bind_Joint_L_Arm_2
+    100030: Bind_Joint_L_Arm_3
+    100032: Bind_Joint_L_Arm_Clav
+    100034: Bind_Joint_L_Arm_R
+    100036: Bind_Joint_L_Finger_1
+    100038: Bind_Joint_L_Finger_2
+    100040: Bind_Joint_L_Finger_2 1
+    100042: Bind_Joint_L_Finger_3
+    100044: Bind_Joint_L_Finger_3 1
+    100046: Bind_Joint_L_Finger_4
+    100048: Bind_Joint_L_Index_1
+    100050: Bind_Joint_L_Index_2
+    100052: Bind_Joint_L_Index_2 1
+    100054: Bind_Joint_L_Index_3
+    100056: Bind_Joint_L_Index_3 1
+    100058: Bind_Joint_L_Index_4
+    100060: Bind_Joint_L_Leg_1
+    100062: Bind_Joint_L_Leg_2
+    100064: Bind_Joint_L_Leg_3
+    100066: Bind_Joint_L_Leg_4
+    100068: Bind_Joint_L_Leg_Root
+    100070: Bind_Joint_L_Thumb_1
+    100072: Bind_Joint_L_Thumb_2
+    100074: Bind_Joint_L_Thumb_3
+    100076: Bind_Joint_Neck
+    100078: Bind_Joint_R_Arm_13
+    100080: Bind_Joint_R_Arm_2
+    100082: Bind_Joint_R_Arm_3
+    100084: Bind_Joint_R_Arm_Clav
+    100086: Bind_Joint_R_Arm_R
+    100088: Bind_Joint_R_Finger_1
+    100090: Bind_Joint_R_Finger_2
+    100092: Bind_Joint_R_Finger_2 1
+    100094: Bind_Joint_R_Finger_3
+    100096: Bind_Joint_R_Finger_3 1
+    100098: Bind_Joint_R_Finger_4
+    100100: Bind_Joint_R_Index_1
+    100102: Bind_Joint_R_Index_2
+    100104: Bind_Joint_R_Index_2 1
+    100106: Bind_Joint_R_Index_3
+    100108: Bind_Joint_R_Index_3 1
+    100110: Bind_Joint_R_Index_4
+    100112: Bind_Joint_R_Leg_1
+    100114: Bind_Joint_R_Leg_2
+    100116: Bind_Joint_R_Leg_3
+    100118: Bind_Joint_R_Leg_4
+    100120: Bind_Joint_R_Leg_Root
+    100122: Bind_Joint_R_Thumb_1
+    100124: Bind_Joint_R_Thumb_2
+    100126: Bind_Joint_R_Thumb_3
+    100128: Bind_Joint_Spine_1
+    100130: Bind_Joint_Spine_2
+    100132: Bind_Joint_Spine_3
+    100134: Bind_Joint_Spine_4
+    100136: Bind_Joint_Spine_Head_Top
+    100138: Bind_Joint_Spine_R
+    100140: CTRL_Arm_L_1
+    100142: CTRL_Arm_L_2
+    100144: CTRL_Arm_L_3
+    100146: CTRL_Arm_R_1
+    100148: CTRL_Arm_R_2
+    100150: CTRL_Arm_R_3
+    100152: CTRL_Chest
+    100154: CTRL_Flip
+    100156: CTRL_Global
+    100158: CTRL_Head
+    100160: CTRL_Hips
+    100162: CTRL_IK_FL
+    100164: CTRL_IK_FR
+    100166: CTRL_LL_1
+    100168: CTRL_LL_2
+    100170: CTRL_LL_Hip
+    100172: CTRL_LR_1
+    100174: CTRL_LR_2
+    100176: CTRL_LR_Hip
+    100178: CTRL_Root
+    100180: CTRL_waistPivot
+    100182: group1
+    100184: group2
+    100186: group2 1
+    100188: group3
+    100190: group3 1
+    100192: group4
+    100194: HeelTwist
+    100196: ikHandle1
+    100198: ikHandle2
+    100200: ikHandle3
+    100202: LFT_BallRaise
+    100204: LFT_ToeRaise
+    100206: LFT_ToeTwist
+    100208: LFTIK
+    100210: Lyric
+    100212: Lyric_Clothes
+    100214: Lyric_Head
+    100216: nurbsCircle1
+    100218: nurbsCircle2
+    100220: nurbsCircle3
+    100222: nurbsCircle4
+    100224: RFT_BallRaise
+    100226: RFT_ToeRaise
+    100228: RFT_ToeTwist
+    100230: RFTIK
+    100232: ToeTap
+    100234: ZeroGRP_LF_IK
+    100236: ZeroGRP_RF_IK
     400000: Body
     400002: BodySeperated
     400004: Glasses
@@ -27,6 +135,114 @@ ModelImporter:
     400016: Speaker_Boots
     400018: Speaker_Shoulders
     400020: SpeakersHips
+    400022: BallRoll
+    400024: Bind_Joint_Head_Low
+    400026: Bind_Joint_L_Arm_13
+    400028: Bind_Joint_L_Arm_2
+    400030: Bind_Joint_L_Arm_3
+    400032: Bind_Joint_L_Arm_Clav
+    400034: Bind_Joint_L_Arm_R
+    400036: Bind_Joint_L_Finger_1
+    400038: Bind_Joint_L_Finger_2
+    400040: Bind_Joint_L_Finger_2 1
+    400042: Bind_Joint_L_Finger_3
+    400044: Bind_Joint_L_Finger_3 1
+    400046: Bind_Joint_L_Finger_4
+    400048: Bind_Joint_L_Index_1
+    400050: Bind_Joint_L_Index_2
+    400052: Bind_Joint_L_Index_2 1
+    400054: Bind_Joint_L_Index_3
+    400056: Bind_Joint_L_Index_3 1
+    400058: Bind_Joint_L_Index_4
+    400060: Bind_Joint_L_Leg_1
+    400062: Bind_Joint_L_Leg_2
+    400064: Bind_Joint_L_Leg_3
+    400066: Bind_Joint_L_Leg_4
+    400068: Bind_Joint_L_Leg_Root
+    400070: Bind_Joint_L_Thumb_1
+    400072: Bind_Joint_L_Thumb_2
+    400074: Bind_Joint_L_Thumb_3
+    400076: Bind_Joint_Neck
+    400078: Bind_Joint_R_Arm_13
+    400080: Bind_Joint_R_Arm_2
+    400082: Bind_Joint_R_Arm_3
+    400084: Bind_Joint_R_Arm_Clav
+    400086: Bind_Joint_R_Arm_R
+    400088: Bind_Joint_R_Finger_1
+    400090: Bind_Joint_R_Finger_2
+    400092: Bind_Joint_R_Finger_2 1
+    400094: Bind_Joint_R_Finger_3
+    400096: Bind_Joint_R_Finger_3 1
+    400098: Bind_Joint_R_Finger_4
+    400100: Bind_Joint_R_Index_1
+    400102: Bind_Joint_R_Index_2
+    400104: Bind_Joint_R_Index_2 1
+    400106: Bind_Joint_R_Index_3
+    400108: Bind_Joint_R_Index_3 1
+    400110: Bind_Joint_R_Index_4
+    400112: Bind_Joint_R_Leg_1
+    400114: Bind_Joint_R_Leg_2
+    400116: Bind_Joint_R_Leg_3
+    400118: Bind_Joint_R_Leg_4
+    400120: Bind_Joint_R_Leg_Root
+    400122: Bind_Joint_R_Thumb_1
+    400124: Bind_Joint_R_Thumb_2
+    400126: Bind_Joint_R_Thumb_3
+    400128: Bind_Joint_Spine_1
+    400130: Bind_Joint_Spine_2
+    400132: Bind_Joint_Spine_3
+    400134: Bind_Joint_Spine_4
+    400136: Bind_Joint_Spine_Head_Top
+    400138: Bind_Joint_Spine_R
+    400140: CTRL_Arm_L_1
+    400142: CTRL_Arm_L_2
+    400144: CTRL_Arm_L_3
+    400146: CTRL_Arm_R_1
+    400148: CTRL_Arm_R_2
+    400150: CTRL_Arm_R_3
+    400152: CTRL_Chest
+    400154: CTRL_Flip
+    400156: CTRL_Global
+    400158: CTRL_Head
+    400160: CTRL_Hips
+    400162: CTRL_IK_FL
+    400164: CTRL_IK_FR
+    400166: CTRL_LL_1
+    400168: CTRL_LL_2
+    400170: CTRL_LL_Hip
+    400172: CTRL_LR_1
+    400174: CTRL_LR_2
+    400176: CTRL_LR_Hip
+    400178: CTRL_Root
+    400180: CTRL_waistPivot
+    400182: group1
+    400184: group2
+    400186: group2 1
+    400188: group3
+    400190: group3 1
+    400192: group4
+    400194: HeelTwist
+    400196: ikHandle1
+    400198: ikHandle2
+    400200: ikHandle3
+    400202: LFT_BallRaise
+    400204: LFT_ToeRaise
+    400206: LFT_ToeTwist
+    400208: LFTIK
+    400210: Lyric
+    400212: Lyric_Clothes
+    400214: Lyric_Head
+    400216: nurbsCircle1
+    400218: nurbsCircle2
+    400220: nurbsCircle3
+    400222: nurbsCircle4
+    400224: RFT_BallRaise
+    400226: RFT_ToeRaise
+    400228: RFT_ToeTwist
+    400230: RFTIK
+    400232: ToeTap
+    400234: ZeroGRP_LF_IK
+    400236: ZeroGRP_RF_IK
     2300000: Body
     2300002: Glasses
     2300004: Hair
@@ -36,6 +252,8 @@ ModelImporter:
     2300012: Speaker_Boots
     2300014: Speaker_Shoulders
     2300016: SpeakersHips
+    2300018: Lyric_Clothes
+    2300020: Lyric_Head
     3300000: Body
     3300002: Glasses
     3300004: Hair
@@ -45,6 +263,8 @@ ModelImporter:
     3300012: Speaker_Boots
     3300014: Speaker_Shoulders
     3300016: SpeakersHips
+    3300018: Lyric_Clothes
+    3300020: Lyric_Head
     4300000: Speaker_Boots
     4300002: Hair
     4300004: Head
@@ -54,6 +274,8 @@ ModelImporter:
     4300012: Speaker_Shoulders
     4300014: SpeakersHips
     4300016: Glasses
+    4300018: Lyric_Clothes
+    4300020: Lyric_Head
   materials:
     importMaterials: 1
     materialName: 0
