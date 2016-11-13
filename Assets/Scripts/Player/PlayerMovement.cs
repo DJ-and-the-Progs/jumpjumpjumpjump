@@ -80,7 +80,6 @@ public class PlayerMovement : MonoBehaviour {
 		Vector3 currentRotationEulerAngles = currentRotation.eulerAngles;
 		float currentAngle = currentRotation.eulerAngles.y;
 
-
 		if (Mathf.Abs(horizVelocity) >= Mathf.Abs(maxVelocity/2))
 		{
 			if (horizontalInput < 0)
@@ -114,6 +113,9 @@ public class PlayerMovement : MonoBehaviour {
         //rb.MovePosition(target);
         this.transform.position = target;
 
+        lyricAnimator.SetBool("falling", this.IsGoingDown());
+        
+
         // Look down for collisions with floor
         RaycastHit hit;
         Color debugHitColor = Color.green;
@@ -132,8 +134,6 @@ public class PlayerMovement : MonoBehaviour {
             // Tell the thing we bounced on that we bounced on it
             object[] bounceData = new object[] { this.gameObject, hit.point };
             hit.collider.gameObject.SendMessage("OnPlayerBounceOn", bounceData, SendMessageOptions.DontRequireReceiver);
-
-            lyricAnimator.Play("Bounce", 0, 0.5f);
         }
 
         if (!this.IsGoingDown() && Physics.SphereCast(this.transform.position, spherecastRadius, Vector3.up, out hit, lookAheadDistance, layerMask))
