@@ -32,6 +32,9 @@ public class Enemy : MonoBehaviour {
 
     protected ScoreCounter scoreCounter;
 
+    [SerializeField]
+    protected Animator animator;
+
 	// Use this for initialization
 	void Start () {
         maxHits = hits;
@@ -46,7 +49,8 @@ public class Enemy : MonoBehaviour {
 
     protected virtual void Die()
     {
-        Destroy(this.gameObject);
+        Destroy(this.GetComponent<Collider>()); 
+        if (!this.animator) Destroy(this.gameObject);
     }
 
     protected virtual void OnPlayerBounceOn(object[] data)
@@ -61,6 +65,7 @@ public class Enemy : MonoBehaviour {
                 scoreCounter.NotifyLastHit(this.transform.position + Vector3.up * 0.8f);
                 scoreCounter.AddScore(this.killScore);
             }
+            if (this.animator) this.animator.SetTrigger("killed");
             this.Die();
         }
         else
@@ -70,6 +75,7 @@ public class Enemy : MonoBehaviour {
                 scoreCounter.NotifyDamage(this.transform.position + Vector3.up * 0.8f);
                 scoreCounter.AddScore(this.hitScore);
             }
+            if (this.animator) this.animator.SetTrigger("hit");
         }
 
         GameObject shockWave = Instantiate(particleEffect);
