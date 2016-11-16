@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class GameOver : MonoBehaviour {
 
@@ -27,11 +28,11 @@ public class GameOver : MonoBehaviour {
     
     public void OnRestartButton()
     {
-        Application.LoadLevel(Application.loadedLevel);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void OnQuitButton()
     {
-        Application.LoadLevel("MainNew");
+        SceneManager.LoadScene("MainNew");
     }
 }

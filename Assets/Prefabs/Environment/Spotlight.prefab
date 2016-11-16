@@ -20,7 +20,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000010116911772}
   - 108: {fileID: 108000011132757992}
-  - 114: {fileID: 114000014221196914}
   m_Layer: 0
   m_Name: Spotlight
   m_TagString: Untagged
@@ -75,69 +74,3 @@ Light:
   m_BounceIntensity: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &114000014221196914
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000013505329274}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0109504c2f6a31b4498a8fd6a490584a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ShadowmapMode: 0
-  m_Cameras:
-  - {fileID: 0}
-  m_CurrentCamera: {fileID: 0}
-  m_Size: {x: 10, y: 10, z: 20}
-  m_SpotNear: 0.06
-  m_SpotFar: 0.85
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ColorFilterMask:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Brightness: 5.07
-  m_BrightnessColored: 5
-  m_Extinction: 0.5
-  m_MinDistFromCamera: 0
-  m_ShadowmapRes: 128
-  m_DepthShader: {fileID: 4800000, guid: 7e188a1e08ecfae4785bed08b1013219, type: 3}
-  m_ColorFilterShader: {fileID: 4800000, guid: 78da0b5fc3a6e8a469d047d71187e7ef, type: 3}
-  m_Colored: 0
-  m_ColorBalance: 1
-  m_EpipolarLines: 128
-  m_EpipolarSamples: 256
-  m_CoordShader: {fileID: 4800000, guid: 170533b360a07f945b98b5d9d11bff19, type: 3}
-  m_DepthBreaksShader: {fileID: 4800000, guid: 8675ad07e6cda494d977506a7a2a8fbd, type: 3}
-  m_RaymarchShader: {fileID: 4800000, guid: 8b94af9deac0e2d4e9523f6090a3e61e, type: 3}
-  m_InterpolateAlongRaysShader: {fileID: 4800000, guid: b4040e961c997484e824ff979a17c3c0,
-    type: 3}
-  m_SamplePositionsShader: {fileID: 4800000, guid: 328e45223da3ee24a9b9bc2020d76aa4,
-    type: 3}
-  m_FinalInterpolationShader: {fileID: 4800000, guid: 3fe6f8dd2066bc741806972899aa82f6,
-    type: 3}
-  m_DepthThreshold: 0.66
-  m_InterpolationStep: 32
-  m_ShowSamples: 0
-  m_ShowInterpolatedSamples: 0
-  m_ShowSamplesBackgroundFade: 0.456
-  m_AttenuationCurveOn: 1
-  m_AttenuationCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0

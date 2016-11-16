@@ -154,12 +154,12 @@ public class PlayerMovement : MonoBehaviour {
         // Line to show where we bounced from (last floor)
         Debug.DrawRay(this.transform.position, Vector3.down * (this.transform.position.y - lastJumpFrom), Color.blue);
 
-        if (this.IsGoingDown() && Physics.SphereCast(this.transform.position, adjustmentLookRadius, Vector3.down, out hit, adjustmentDistance, layerMask))
-        {
-            float diff = (hit.collider.transform.position.x-this.transform.position.x);
-            target.x += Mathf.Min(Mathf.Abs(diff), adjustmentRate * Time.deltaTime) * Mathf.Sign(diff);
-        }
-        Debug.DrawRay(this.transform.position, Vector3.down * adjustmentDistance, Color.cyan);
+        //if (this.IsGoingDown() && Physics.SphereCast(this.transform.position, adjustmentLookRadius, Vector3.down, out hit, adjustmentDistance, layerMask))
+        //{
+        //    float diff = (hit.collider.transform.position.x-this.transform.position.x);
+        //    target.x += Mathf.Min(Mathf.Abs(diff), adjustmentRate * Time.deltaTime) * Mathf.Sign(diff);
+        //}
+        //Debug.DrawRay(this.transform.position, Vector3.down * adjustmentDistance, Color.cyan);
 
         Rigidbody rb = this.GetComponent<Rigidbody>();
         rb.velocity = Vector3.zero;
@@ -203,7 +203,7 @@ public class PlayerMovement : MonoBehaviour {
 	{
 		Destroy(this);
 		this.GetComponent<MoveToPortal>().enabled = true;
-		lyricAnimator.SetTrigger("OnPortalCollide");
+		// lyricAnimator.SetTrigger("OnPortalCollide");
 
         GameObject.FindGameObjectWithTag("LevelComplete").GetComponent<LevelComplete>().Reveal();
 

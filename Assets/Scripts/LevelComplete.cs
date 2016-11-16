@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class LevelComplete : MonoBehaviour {
 
@@ -71,10 +72,10 @@ public class LevelComplete : MonoBehaviour {
 
     public void OnNextLevelClicked()
     {
-        Application.LoadLevel(level.NextLevel);
+        SceneManager.LoadScene(level.NextLevel);
     }
     public void OnMenuClicked()
     {
-        Application.LoadLevel("MainNew");
+        SceneManager.LoadScene("MainNew");
     }
 }

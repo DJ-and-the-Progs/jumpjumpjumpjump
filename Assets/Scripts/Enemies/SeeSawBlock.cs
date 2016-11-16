@@ -42,8 +42,8 @@ public class SeeSawBlock : MonoBehaviour {
 
     protected virtual void OnPlayerBounceOn(object[] data)
     {
-        GameObject player = (GameObject)data[0];
-        Vector3 hitPoint = (Vector3)data[1];
+        // GameObject player = (GameObject)data[0];
+        // Vector3 hitPoint = (Vector3)data[1];
 
         if (scoreCounter)
         {
