@@ -19,8 +19,6 @@ public class Enemy : MonoBehaviour {
     [Tooltip("How many points received for final hit")]
 	private int killScore;
 
-    private int maxHits;
-
     protected ScoreCounter scoreCounter;
 
     [SerializeField]
@@ -38,7 +36,6 @@ public class Enemy : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        maxHits = hits;
         if (skin && hits < colors.Length)
         {
             skin.materials[4].color = colors[hits];

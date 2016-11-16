@@ -51,12 +51,12 @@ public class PlayerMovement : MonoBehaviour {
     private bool dead = false;
     public bool Dead { get { return dead; } set { dead = value; } }
 
-    [SerializeField]
-    private float adjustmentDistance = 3f;
-    [SerializeField]
-    private float adjustmentLookRadius = 2.12f;
-    [SerializeField]
-    private float adjustmentRate = 5f;
+    //[SerializeField]
+    //private float adjustmentDistance = 3f;
+    //[SerializeField]
+    //private float adjustmentLookRadius = 2.12f;
+    //[SerializeField]
+    //private float adjustmentRate = 5f;
 
 	// Use this for initialization
 	void Start () {

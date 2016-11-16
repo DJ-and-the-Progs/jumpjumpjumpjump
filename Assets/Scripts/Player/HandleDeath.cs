@@ -5,11 +5,9 @@ public class HandleDeath : MonoBehaviour {
 
     [SerializeField]
     private int hitsUntilDeath;
-    private int maxHits;
 
 	// Use this for initialization
 	void Start () {
-        maxHits = hitsUntilDeath;
 	}
 	
     // Called by triggers and KillPlayerOnHit
