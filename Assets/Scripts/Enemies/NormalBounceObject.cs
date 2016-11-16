@@ -27,10 +27,10 @@ public class NormalBounceObject : MonoBehaviour {
         Destroy(this.gameObject);
     }
 
-    protected virtual void OnPlayerBounceOn(object[] data)
+    void OnPlayerCollideWith(PlayerMovement player)
     {
-        // GameObject player = (GameObject)data[0];
-        // Vector3 hitPoint = (Vector3)data[1];
+        if(player.IsGoingDown())
+            player.Bounce();
 
         if (scoreCounter)
         {

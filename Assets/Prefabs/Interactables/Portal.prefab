@@ -52,9 +52,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000011248398818}
-  - 136: {fileID: 136000012757900064}
   - 114: {fileID: 114000013341030650}
   - 95: {fileID: 95000011316149608}
+  - 61: {fileID: 61000014094390270}
   m_Layer: 10
   m_Name: Portal
   m_TagString: Portal
@@ -68,10 +68,10 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013555732184}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 135.2, y: -0.9, z: -0.8}
-  m_LocalScale: {x: 5, y: 3.38, z: 0.99999994}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 53.46, y: 3.9, z: -0.8}
+  m_LocalScale: {x: 5, y: 3.380002, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
   m_Children:
   - {fileID: 4000012188891070}
   - {fileID: 4000014183819566}
@@ -103,6 +103,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4000011248398818}
   m_RootOrder: 1
+--- !u!61 &61000014094390270
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013555732184}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 1}
 --- !u!95 &95000011316149608
 Animator:
   serializedVersion: 3
@@ -131,19 +145,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c432aa06e0736eb42b0df764787d00fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &136000012757900064
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000013555732184}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 1.4
-  m_Direction: 0
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!198 &198000012449798394
 ParticleSystem:
   m_ObjectHideFlags: 1

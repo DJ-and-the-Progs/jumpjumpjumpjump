@@ -59,10 +59,11 @@ public class Enemy : MonoBehaviour {
         if (!this.animator) Destroy(this.gameObject);
     }
 
-    protected virtual void OnPlayerBounceOn(object[] data)
+    protected virtual void OnPlayerCollideWith(PlayerMovement player)
     {
-        // GameObject player = (GameObject)data[0];
-        // Vector3 hitPoint = (Vector3)data[1];
+        if(player.IsGoingDown())
+            player.Bounce();
+
         this.hits--;
         if (this.hits <= 0)
         {

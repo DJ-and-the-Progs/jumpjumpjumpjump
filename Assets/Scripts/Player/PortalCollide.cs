@@ -13,8 +13,8 @@ public class PortalCollide : MonoBehaviour {
 	
 	}
 
-	void OnTriggerEnter(Collider collider)
+	void OnPlayerCollideWith(PlayerMovement player)
 	{
-		collider.gameObject.SendMessage("OnPortalCollide");
+		player.SendMessage("OnPortalCollide");
 	}
 }

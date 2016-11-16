@@ -20,8 +20,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000011219196922}
   - 114: {fileID: 114000013667628532}
-  - 135: {fileID: 135000011415419886}
-  - 114: {fileID: 114000011492576208}
+  - 58: {fileID: 58000012150265158}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -53,7 +52,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012481152036}
   m_LocalRotation: {x: -0.1220008, y: -0.5702023, z: -0.35536888, w: 0.73054653}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: -35.691, y: -67.017006, z: -27.839}
   m_Children: []
@@ -66,7 +65,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010457232230}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 48.7, y: 7.2, z: 0}
+  m_LocalPosition: {x: -1.16, y: -0.98, z: 0.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -109,50 +108,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012481152036}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &114000011492576208
-MonoBehaviour:
+--- !u!58 &58000012150265158
+CircleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010457232230}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d720bc471603bbe42b8bfad98f00cea4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  direction: {x: 0, y: 2, z: 0}
-  period: 3
-  curve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 4
-      outSlope: 12.5632105
-      tangentMode: 5
-    - time: 0.25
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - time: 0.5
-      value: 0
-      inSlope: -12.096523
-      outSlope: -12.096523
-      tangentMode: 0
-    - time: 0.75
-      value: -1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - time: 1
-      value: 0
-      inSlope: 12.116637
-      outSlope: 12.116637
-      tangentMode: 0
-    m_PreInfinity: 1
-    m_PostInfinity: 1
-    m_RotationOrder: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.64386237
 --- !u!114 &114000013667628532
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -173,15 +142,3 @@ MonoBehaviour:
   animator: {fileID: 0}
   skin: {fileID: 0}
   colors: []
---- !u!135 &135000011415419886
-SphereCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010457232230}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0.5, z: 0}
