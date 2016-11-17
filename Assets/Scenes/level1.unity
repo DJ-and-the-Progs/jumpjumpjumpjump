@@ -557,7 +557,7 @@ Prefab:
         type: 2}
       propertyPath: m_CurrentCamera
       value: 
-      objectReference: {fileID: 2118262561}
+      objectReference: {fileID: 1556632846}
     - target: {fileID: 114000014221196914, guid: 57186ba0bd02e734da4975f137272c80,
         type: 2}
       propertyPath: m_ShowSamples
@@ -567,7 +567,7 @@ Prefab:
         type: 2}
       propertyPath: m_Cameras.Array.data[0]
       value: 
-      objectReference: {fileID: 2118262561}
+      objectReference: {fileID: 1556632846}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 57186ba0bd02e734da4975f137272c80, type: 2}
   m_IsPrefabParent: 0
@@ -975,7 +975,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012287847772, guid: fd625f62714184d45ae0001687d6072d, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -12
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4000012287847772, guid: fd625f62714184d45ae0001687d6072d, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1642,6 +1642,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 51f34108d6e38fb4bb18af318965cefb, type: 2}
   m_IsPrefabParent: 0
+--- !u!20 &1556632846 stripped
+Camera:
+  m_PrefabParentObject: {fileID: 20000013621435608, guid: fd625f62714184d45ae0001687d6072d,
+    type: 2}
+  m_PrefabInternal: {fileID: 874214590}
 --- !u!1 &1567273262
 GameObject:
   m_ObjectHideFlags: 0
@@ -1868,7 +1873,7 @@ Prefab:
         type: 2}
       propertyPath: m_Camera
       value: 
-      objectReference: {fileID: 2118262561}
+      objectReference: {fileID: 0}
     - target: {fileID: 114000013732220262, guid: cb43706faeb9aa547a06f87393f8b2f7,
         type: 2}
       propertyPath: volumeCurve.m_Curve.Array.data[1].time
@@ -2233,8 +2238,3 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 51f34108d6e38fb4bb18af318965cefb, type: 2}
   m_IsPrefabParent: 0
---- !u!20 &2118262561 stripped
-Camera:
-  m_PrefabParentObject: {fileID: 20000013792283148, guid: fd625f62714184d45ae0001687d6072d,
-    type: 2}
-  m_PrefabInternal: {fileID: 874214590}

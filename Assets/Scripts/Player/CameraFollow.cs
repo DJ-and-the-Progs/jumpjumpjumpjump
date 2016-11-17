@@ -24,6 +24,12 @@ public class CameraFollow : MonoBehaviour {
     [Tooltip("Right-most camera position")]
     private float maxX;
 
+    [SerializeField]
+    private Vector2 maxRotationOffset;
+    [SerializeField]
+    [Tooltip("How much translational difference is required to reach max rotational offset on x and y")]
+    private Vector2 rotationTranslationalDifferenceTarget;
+
 	// Use this for initialization
 	void Start () {
         Debug.Assert(target != null);
@@ -69,5 +75,13 @@ public class CameraFollow : MonoBehaviour {
         }
 
         this.transform.position = position;
+
+
+        Vector3 rotation = this.transform.eulerAngles;
+        Vector3 diff = target.position - this.transform.position;
+
+        rotation.y = Mathf.Clamp(diff.x / this.rotationTranslationalDifferenceTarget.x, -1, 1) * maxRotationOffset.x;
+        rotation.x = -Mathf.Clamp(diff.y / this.rotationTranslationalDifferenceTarget.y, -1, 1) * maxRotationOffset.y;
+        this.transform.eulerAngles = rotation;
 	}
 }

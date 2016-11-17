@@ -19,12 +19,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000012287847772}
-  - 20: {fileID: 20000013792283148}
-  - 92: {fileID: 92000012303783254}
-  - 124: {fileID: 124000014213847278}
-  - 81: {fileID: 81000011828737924}
   - 114: {fileID: 114000010170162926}
-  - 114: {fileID: 114000011411732050}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -48,6 +43,39 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1000014010881316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000010351402194}
+  - 20: {fileID: 20000013621435608}
+  - 92: {fileID: 92000012462703292}
+  - 124: {fileID: 124000014206834730}
+  - 81: {fileID: 81000014010250770}
+  - 114: {fileID: 114000013629650414}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000010351402194
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014010881316}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012287847772}
+  m_RootOrder: 1
 --- !u!4 &4000011621508258
 Transform:
   m_ObjectHideFlags: 1
@@ -68,23 +96,24 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012717703722}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 6, z: -12}
+  m_LocalPosition: {x: 0, y: 6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 4000011621508258}
+  - {fileID: 4000010351402194}
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!20 &20000013792283148
+--- !u!20 &20000013621435608
 Camera:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000012717703722}
+  m_GameObject: {fileID: 1000014010881316}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.09754437, g: 0.07266436, b: 0.11764705, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -109,19 +138,19 @@ Camera:
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
   m_StereoMirrorMode: 0
---- !u!81 &81000011828737924
+--- !u!81 &81000014010250770
 AudioListener:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000012717703722}
+  m_GameObject: {fileID: 1000014010881316}
   m_Enabled: 1
---- !u!92 &92000012303783254
+--- !u!92 &92000012462703292
 Behaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000012717703722}
+  m_GameObject: {fileID: 1000014010881316}
   m_Enabled: 1
 --- !u!108 &108000014290524078
 Light:
@@ -172,12 +201,14 @@ MonoBehaviour:
   cameraHeightThresholdPercent: 0.75
   minX: 0
   maxX: Infinity
---- !u!114 &114000011411732050
+  maxRotationOffset: {x: 7, y: 3}
+  rotationTranslationalDifferenceTarget: {x: 7, y: 5}
+--- !u!114 &114000013629650414
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000012717703722}
+  m_GameObject: {fileID: 1000014010881316}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7fceaeb339b971b429c4cc600acabd13, type: 3}
@@ -210,10 +241,10 @@ MonoBehaviour:
   blurAndFlaresShader: {fileID: 4800000, guid: be6e39cf196f146d5be72fbefb18ed75, type: 3}
   brightPassFilterShader: {fileID: 4800000, guid: 0aeaa4cb29f5d4e9c8455f04c8575c8c,
     type: 3}
---- !u!124 &124000014213847278
+--- !u!124 &124000014206834730
 Behaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000012717703722}
+  m_GameObject: {fileID: 1000014010881316}
   m_Enabled: 1
